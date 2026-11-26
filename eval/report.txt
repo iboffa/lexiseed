@@ -1,0 +1,106 @@
+1. Determinism and locality
+   same seed twice -> identical lexicon: yes
+   change word order + case count + articles -> words changed: 1 of 260 (expected: only compounds, whose order follows head direction)
+
+2. Runs: 560 languages (40 seeds x 14 families), failures: 0
+   time per language: p50 5 ms, p95 21 ms, max 92 ms
+   duplicate language names: 0
+   homophone rejections per language: mean 4.3, max 485
+   homophones left in a lexicon (hard rule): 0
+   unplanned paradigm collisions (model noun): 1 languages
+   languages with a calibration warning: 0
+
+3. Per family: measured vowel % and syllables per word (target in brackets), typology mix
+   family       vowel%        syll/word     cases  C/V      morph (agg/fus/iso)  orders
+   original      45 (45)    2.34 (2.33)    3.1   19/7    14/13/13             SVO19 SOV14 VSO5 OSV1 VOS1
+   romance       44 (44)    2.03 (2.04)    1.4   18/6    8/31/1               SVO35 SOV4 VSO1
+   slavic        39 (38)    1.63 (1.61)    6.0   25/8    5/35/0               SVO36 SOV3 OVS1
+   germanic      37 (37)    1.61 (1.62)    1.5   17/7    1/27/12              SVO25 SOV15
+   hellenic      42 (43)    1.97 (1.99)    4.1   18/5    1/39/0               SVO25 SOV13 VSO2
+   celtic        32 (32)    1.39 (1.39)    0.3   18/6    0/31/9               VSO38 SVO2
+   indoaryan     41 (41)    1.41 (1.41)    6.9   27/7    13/27/0              SOV39 SVO1
+   semitic       37 (37)    1.73 (1.76)    0.8   25/4    8/32/0               VSO29 SVO10 SOV1
+   uralic        43 (43)    1.67 (1.66)   11.8   15/9    33/7/0               SVO23 SOV17
+   turkic        43 (43)    1.64 (1.62)    6.5   18/8    40/0/0               SOV40
+   sinitic       34 (34)    1.07 (1.10)    0.0   19/9    0/0/40               SVO39 SOV1
+   japonic       53 (53)    1.96 (1.95)    5.5   15/5    40/0/0               SOV40
+   bantu         50 (50)    1.58 (1.59)    0.0   17/6    40/0/0               SVO40
+   polynesian    56 (56)    2.02 (2.03)    0.3   10/5    7/0/33               VSO36 VOS3 SVO1
+
+3b. Hard checks
+   pinned word order respected in the example sentence: 504 of 504
+   words rendered in every script without gaps, "?" or leftover Latin letters: 40040 of 40040
+
+4. Slider sweeps (family Original, 8 seeds each): target -> measured
+   vowelPct    25->26  35->35  45->45  55->54  65->58
+   vowelPct    25->35  35->36  45->44  55->54  65->62
+   wordLen     1->1.14  1.5->1.52  2->2.01  2.5->2.51  3->3.03  3.5->3.52  4->4.03
+   complexity  1->13  2->19  3->24  4->31  5->35
+   caseCount   2->2  4->4  6->6  8->8  10->10  14->14
+
+5. Bigram distance between languages (0 = same letter-pair statistics, 1 = disjoint)
+   within a family: mean 0.322   across families: mean 0.701
+   within-family distance per family: original 0.62, romance 0.36, slavic 0.30, germanic 0.29, hellenic 0.18, celtic 0.33, indoaryan 0.27, semitic 0.25, uralic 0.29, turkic 0.34, sinitic 0.37, japonic 0.30, bantu 0.30, polynesian 0.31
+
+6. Contact sheet: seed 0 of every family (water, fire, mother, sun, king, big)
+   original    Salnise     nikü, tsamë, pijse, pare, tubu, pëke
+   romance     Crere       apa, focu, matre, soare, reğe, grande
+   slavic      Metci       voda, ohň, mati, selňce, kraľ, velik
+   germanic    Voochte     vatoor, foor, moodeer, soennoon, koening, mikil
+   hellenic    Graga       ydor, pyr, mitir, ilios, basilefs, megas
+   celtic      Boius       duvr, tenets, mòdir, hòwil, ric'h, mòr
+   indoaryan   Piai        pānīa, āgi, mā, shūry, rā, mahān
+   semitic     Ətatit      maʾ, ʾish, ʾimm, samsh, malk, kabīr
+   uralic      Nalj        vesi, tuli, emä, päjv, si, enä
+   turkic      Kugugo      ub, ót, ene, küneş, kagan, ulug
+   sinitic     Swodæg      swíj, hwá, mǔw, jȉd, hjwàng, dȁj
+   japonic     Farawu      midu, pi, fawa, fi, iu, upu
+   bantu       Zinino      jiyi, joto, má, juba, jami, nene
+   polynesian  Tinuno      wai, afi, tinana, wia, aliʻi, lasi
+
+7. Descent: each anchor path run on the real ancestor, compared with the real daughter (normalised edit distance, 0 = identical)
+   daughter            n   exact  path   unchanged ancestor
+   Spanish             60     48  0.07   0.42
+   Italian             67     44  0.10   0.31
+   French              64     13  0.34   0.64
+   Modern Greek        78     45  0.11   0.28
+   Russian             56      9  0.38   0.51
+   Polish              56     14  0.30   0.44
+   Serbo-Croatian      56     28  0.19   0.37
+   German              57      8  0.41   0.60
+   English             57      5  0.48   0.59
+   Swedish             57      9  0.41   0.57
+   Irish               65      9  0.46   0.64
+   Welsh               69     11  0.42   0.62
+   Hindi               67     11  0.37   0.50
+   Punjabi             59      8  0.40   0.53
+   Bengali             50     10  0.40   0.54
+   Arabic              49     33  0.10   0.20
+   Hebrew              55      8  0.39   0.53
+   Amharic             11      0  0.44   0.52
+   Finnish             61     23  0.25   0.38
+   Hungarian           41      5  0.50   0.77
+   Estonian            57     15  0.31   0.48
+   Turkish             60     44  0.10   0.25
+   Kazakh              56     35  0.12   0.27
+   Yakut               32     12  0.21   0.28
+   Mandarin            67      6  0.53   0.64
+   Cantonese           66      6  0.44   0.51
+   Japanese            60     27  0.21   0.42
+   Okinawan            47     21  0.23   0.44
+   Swahili             41      5  0.41   0.51
+   Zulu                31      3  0.48   0.63
+   Shona               35      4  0.39   0.56
+   Hawaiian            50     44  0.04   0.29
+   Māori               57     44  0.08   0.20
+   Tongan              55     41  0.06   0.08
+   distance slider -> mean distance of inherited words from the ancestor: 0->0.00  20->0.08  40->0.17  60->0.21  80->0.27  100->0.32
+
+8. Secondary influence: every recipient x donor pair, light and heavy, 2 seeds each
+   light  338 languages, failures 0, homophones 0, mean loan share 8.1%, inherited words displaced per language 10.6, new sounds per language 0.00, 7.3 ms per language
+   heavy  338 languages, failures 0, homophones 0, mean loan share 19.3%, inherited words displaced per language 30.6, new sounds per language 1.75, 7.7 ms per language
+   light  hard checks: paradigm collisions 0 languages, glyph collisions 0, calibration warnings 0 languages, loanwords in every script 78496 of 78496, pinned word order 338 of 338
+   heavy  hard checks: paradigm collisions 0 languages, glyph collisions 0, calibration warnings 0 languages, loanwords in every script 186538 of 186538, pinned word order 338 of 338
+   same input twice -> identical loans: yes
+
+CSV written to eval/results.csv

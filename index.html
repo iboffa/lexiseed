@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lexiseed · Conlang generator</title>
+  <meta name="description" content="Generate a conlang from a seed. Explore its sound changes, borrow words across language families, and give it a script of its own.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lexiseed · Conlang generator">
+  <meta property="og:description" content="Generate a conlang from a seed. Explore its sound changes, borrow words across language families, and give it a script of its own.">
+  <meta property="og:url" content="https://iboffa.github.io/lexiseed/">
+  <link rel="canonical" href="https://iboffa.github.io/lexiseed/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&family=Noto+Sans+Georgian&family=Noto+Sans+Armenian&family=Noto+Sans+Devanagari&family=Noto+Serif:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to generator results</a>
+  <header class="top">
+    <div class="brand">Lexiseed</div>
+    <nav class="tabs" role="tablist" aria-label="Generator views">
+      <button role="tab" id="view-showcase" data-tab="showcase" aria-controls="tab-showcase" aria-selected="true" tabindex="0">Showcase</button>
+      <button role="tab" id="view-grammar" data-tab="grammar" aria-controls="tab-grammar" aria-selected="false" tabindex="-1">Grammar book</button>
+      <button role="tab" id="view-vocab" data-tab="vocab" aria-controls="tab-vocab" aria-selected="false" tabindex="-1">Vocabulary</button>
+      <button role="tab" id="view-translate" data-tab="translate" aria-controls="tab-translate" aria-selected="false" tabindex="-1">Translate</button>
+      <button role="tab" id="view-explore" data-tab="explore" aria-controls="tab-explore" aria-selected="false" tabindex="-1">Explore seeds</button>
+      <button role="tab" id="view-recipe" data-tab="recipe" aria-controls="tab-recipe" aria-selected="false" tabindex="-1">Recipe</button>
+    </nav>
+    <button class="panel-toggle" id="panelToggle" aria-controls="panel" aria-expanded="false">Settings</button>
+  </header>
+
+  <div class="layout">
+    <aside class="panel" id="panel" aria-label="Generator settings">
+      <form id="controls" autocomplete="off">
+        <fieldset>
+          <legend>Seed</legend>
+          <div class="seed-row">
+            <input id="seed" name="seed" type="text" value="aurora" aria-label="Seed">
+            <button type="button" id="dice" title="New random seed">New seed</button>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Language families</legend>
+          <label class="row"><span>Parent family</span><select name="family" id="family"></select></label>
+          <p class="hint" id="familyBlurb"></p>
+          <label class="row" id="ancestryRow"><span>Ancestry</span><select name="ancestry"><option value="auto">Auto</option><option value="real">Real ancestor</option><option value="invented">Invented</option></select></label>
+          <div class="ctl" data-name="drift" id="driftRow"><div class="ctl-head"><label for="range-drift">Distance from the parent</label><label class="auto"><input type="checkbox" aria-label="Auto: Distance from the parent" checked> auto</label></div><input id="range-drift" type="range" min="0" max="100" step="5"><output></output><div class="measured"></div></div>
+          <div class="family-blend">
+            <label class="row" id="parentShareRow" hidden><span>Parent share (%)</span><input id="parentShare" type="number" min="0" max="100" value="100" required></label>
+            <div id="contactRows"></div>
+            <button type="button" id="addContact">Add family influence</button>
+            <p class="hint">Shares divide the roots used to build content words. The parent supplies the grammar. Contact can start any time in the past 3,000 years.</p>
+            <p id="contactSummary" class="measured"></p>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Sounds</legend>
+          <div class="ctl" data-name="vowelPct"><div class="ctl-head"><label for="range-vowelPct">Vowels</label><label class="auto"><input type="checkbox" aria-label="Auto: Vowels" checked> auto</label></div><input id="range-vowelPct" type="range" min="25" max="65" step="1"><output></output><div class="measured"></div></div>
+          <div class="ctl" data-name="wordLen"><div class="ctl-head"><label for="range-wordLen">Average word length</label><label class="auto"><input type="checkbox" aria-label="Auto: Average word length" checked> auto</label></div><input id="range-wordLen" type="range" min="1" max="4" step="0.1"><output></output><div class="measured"></div></div>
+          <div class="ctl" data-name="complexity"><div class="ctl-head"><label for="range-complexity">Phoneme complexity</label><label class="auto"><input type="checkbox" aria-label="Auto: Phoneme complexity" checked> auto</label></div><input id="range-complexity" type="range" min="1" max="5" step="1"><output></output></div>
+          <label class="row"><span>Tone</span><select name="tone"><option value="auto">Auto</option><option value="none">None</option><option value="two">Two tones</option><option value="many">Three to five</option></select></label>
+          <label class="row"><span>Vowel harmony</span><select name="harmony"><option value="auto">Auto</option><option value="true">Yes</option><option value="false">No</option></select></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Grammar</legend>
+          <label class="row"><span>Case system</span><select name="caseOn"><option value="auto">Auto</option><option value="true">Yes</option><option value="false">No</option></select></label>
+          <div class="ctl" data-name="caseCount"><div class="ctl-head"><label for="range-caseCount">Number of cases</label><label class="auto"><input type="checkbox" aria-label="Auto: Number of cases" checked> auto</label></div><input id="range-caseCount" type="range" min="2" max="14" step="1"><output></output></div>
+          <label class="row"><span>Agglutination</span><select name="morph"><option value="auto">Auto</option><option value="agglutinative">Yes: agglutinative</option><option value="fusional">No: fusional</option><option value="isolating">No: isolating</option></select></label>
+          <label class="row"><span>Word order</span><select name="order"><option value="auto">Auto</option><option>SOV</option><option>SVO</option><option>VSO</option><option>VOS</option><option>OVS</option><option>OSV</option></select></label>
+          <details class="more">
+            <summary>More grammar</summary>
+            <label class="row"><span>Alignment</span><select name="alignment"><option value="auto">Auto</option><option value="accusative">Nominative–accusative</option><option value="ergative">Ergative–absolutive</option></select></label>
+            <label class="row"><span>Gender</span><select name="gender"><option value="auto">Auto</option><option value="none">None</option><option value="animacy">Animate / inanimate</option><option value="two">Two genders</option><option value="three">Three genders</option><option value="classes">Noun classes</option></select></label>
+            <label class="row"><span>Number</span><select name="number"><option value="auto">Auto</option><option value="sgpl">Singular, plural</option><option value="dual">With dual</option><option value="none">Not marked</option></select></label>
+            <label class="row"><span>Articles</span><select name="articles"><option value="auto">Auto</option><option value="none">None</option><option value="definite">Definite</option><option value="both">Definite + indefinite</option></select></label>
+            <label class="row"><span>Peculiar features</span><select name="quirks"><option value="auto">Auto</option><option value="none">None</option><option value="few">A few</option><option value="many">Many</option></select></label>
+            <div class="ctl" data-name="irregularity"><div class="ctl-head"><label for="irregularRate">Irregularity</label><label class="auto"><input type="checkbox" aria-label="Auto: Irregularity" checked> auto</label></div><input id="irregularRate" type="range" min="0" max="100" step="1"><output></output><div class="measured"></div></div>
+            <div id="degreeControls"></div>
+            <details class="more feature-settings">
+              <summary>Individual grammar features</summary>
+              <div id="featureControls"></div>
+              <p id="featureWarning" class="hint control-error" role="status" hidden></p>
+            </details>
+            <label class="row"><span>Tense and aspect</span><select name="tam"><option value="auto">Auto</option><option value="simple">Past / non-past</option><option value="standard">Past / present / future</option><option value="rich">Tense + aspect</option></select></label>
+          </details>
+        </fieldset>
+
+        <fieldset>
+          <legend>Writing</legend>
+          <label class="row"><span>Script</span><select name="script" id="script"></select></label>
+          <label class="row" id="scriptTypeRow"><span>Original script type</span><select name="scriptType"><option value="auto">Auto</option><option value="alphabet">Alphabet</option><option value="abjad">Abjad</option><option value="abugida">Abugida</option><option value="syllabary">Syllabary</option></select></label>
+          <label class="row" id="scriptStyleRow"><span>Original script style</span><select name="scriptStyle"><option value="auto">Auto</option><option value="blocks">Featural blocks (Hangul-like)</option><option value="capitals">Capital letters</option><option value="rounded">Rounded (Georgian-like)</option><option value="runic">Carved runes</option><option value="brush">Brush syllabary (kana-like)</option><option value="geometric">Turned shapes (Cree-like)</option><option value="brahmic">Head-line abugida (Devanagari-like)</option><option value="cursive">Joined dotted abjad (Arabic-like)</option></select></label>
+        </fieldset>
+
+        <p id="controlError" role="alert" hidden></p>
+        <div class="actions">
+          <button type="button" id="copyLink">Copy link</button>
+          <button type="button" id="reset">Reset to auto</button>
+        </div>
+      </form>
+    </aside>
+
+    <main id="main" tabindex="-1">
+      <div class="intro">
+        <h1>Lexiseed</h1>
+        <p>Generate a language from a seed. Start from scratch or choose an ancestor, then shape its sounds, grammar, and script.</p>
+        <a href="https://github.com/iboffa/lexiseed">Source on GitHub</a>
+      </div>
+      <noscript>Enable JavaScript to generate a language.</noscript>
+      <div id="tab-showcase" class="tab-panel" role="tabpanel" aria-labelledby="view-showcase" tabindex="0"></div>
+      <div id="tab-grammar" class="tab-panel" role="tabpanel" aria-labelledby="view-grammar" tabindex="0" hidden></div>
+      <div id="tab-vocab" class="tab-panel" role="tabpanel" aria-labelledby="view-vocab" tabindex="0" hidden>
+        <div class="vocab-bar">
+          <input type="search" id="vocabSearch" placeholder="Search English or the language" aria-label="Search vocabulary">
+          <select id="vocabPos" aria-label="Part of speech"><option value="">All</option><option value="n">Nouns</option><option value="v">Verbs</option><option value="adj">Adjectives</option><option value="num">Numerals</option><option value="pron">Pronouns</option><option value="art">Articles</option><option value="other">Other</option></select>
+          <select id="vocabSort" aria-label="Sort"><option value="en">English A–Z</option><option value="native">Native A–Z</option><option value="list">Core list order</option></select>
+          <button type="button" id="csv">Download CSV</button>
+        </div>
+        <div id="vocabTable"></div>
+      </div>
+      <div id="tab-translate" class="tab-panel" role="tabpanel" aria-labelledby="view-translate" tabindex="0" hidden>
+        <h2>Translate</h2>
+        <p class="muted">Write simple English sentences. Words the language does not have yet are coined on the spot and added to the vocabulary (marked <b>new</b>); they are kept in this browser for this language.</p>
+        <textarea id="trIn" rows="4" aria-label="English text">The old king gave a golden sword to his daughter. Do you have bread? We never eat fish.</textarea>
+        <div class="actions"><button type="button" id="trGo">Translate</button><label class="row inline"><input type="checkbox" id="trPolite"> polite speech</label><button type="button" id="trClear" class="quiet">Forget coined words</button></div>
+        <div id="trOut"></div>
+        <h2>IPA reader</h2>
+        <p class="muted">Every ▶ button on the site uses this reader. The neural voice (Kokoro, an open model that runs in this browser) reads IPA directly and sounds the most natural; the first ▶ downloads it once (about 92 MB). Kokoro learnt eight languages, so <i>Adaptive</i> blends the speakers whose languages sound most like this one, and <i>Neutral</i> blends all of them; sounds none of the eight has are replaced by the nearest one, and tones are only carried by the Mandarin speaker. The built-in voice is a synthesiser written for this page: robotic, but it reads every sound and tone exactly and needs no download. The system voice uses a Spanish, Italian or Portuguese voice installed on your device and reads a Spanish-style respelling. Paste any IPA here, with ˈ or ' before the stressed syllable, ˥˧˩ tone letters and , or ? for phrase breaks.</p>
+        <div class="reader"><input type="text" id="ipaIn" value="ˈvita ˈbɛla" aria-label="IPA text"><button type="button" class="speak big" id="ipaGo">▶ Read</button></div>
+        <label class="row inline"><span>Voice</span><select id="engine"><option value="neural">Neural (Kokoro, natural)</option><option value="builtin">Built-in (exact IPA)</option><option value="system">System voice (respelling)</option></select></label>
+        <label class="row inline" id="neuralRow"><span>Neural speaker</span><select id="neuralVoice"><option value="adaptive">Adaptive (matched to the language)</option><option value="neutral">Neutral (all eight blended)</option></select></label>
+        <p class="muted" id="neuralNote"></p>
+        <label class="row inline" id="presetRow"><span id="presetLabel">Voice</span><select id="preset"><option value="low">Low</option><option value="high">High</option><option value="child">Child</option></select></label>
+        <label class="row inline" id="sysRow" hidden><span>System voice</span><select id="sysVoice"></select></label>
+        <p class="muted" id="sysNote" hidden></p>
+        <label class="row inline"><span>Speed</span><input type="range" id="rate" min="0.6" max="1.4" step="0.1" value="1"></label>
+        <label class="row inline" id="pitchRow"><span>Pitch</span><input type="range" id="pitch" min="0.7" max="1.6" step="0.1" value="1"></label>
+      </div>
+      <div id="tab-explore" class="tab-panel" role="tabpanel" aria-labelledby="view-explore" tabindex="0" hidden></div>
+      <div id="tab-recipe" class="tab-panel" role="tabpanel" aria-labelledby="view-recipe" tabindex="0" hidden></div>
+    </main>
+  </div>
+  <div id="voiceToast" class="toast" role="status" hidden></div>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>

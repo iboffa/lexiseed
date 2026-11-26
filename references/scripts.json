@@ -1,0 +1,1813 @@
+{
+ "cyrillic": [
+  {
+   "letter": "а",
+   "ipa": "a",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "б",
+   "ipa": "b",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "в",
+   "ipa": "v",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "г",
+   "ipa": "ɡ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "д",
+   "ipa": "d",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "е",
+   "ipa": "je, ʲe, e",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ё",
+   "ipa": "jo, ʲo",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ж",
+   "ipa": "ʐ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "з",
+   "ipa": "z",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "и",
+   "ipa": "i, ʲi, ɨ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "й",
+   "ipa": "j",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "к",
+   "ipa": "k",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "л",
+   "ipa": "ɫ, lʲ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "м",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "н",
+   "ipa": "n",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "о",
+   "ipa": "o",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "п",
+   "ipa": "p",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "р",
+   "ipa": "r",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "с",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "т",
+   "ipa": "t",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "у",
+   "ipa": "u",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ф",
+   "ipa": "f",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "х",
+   "ipa": "x",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ц",
+   "ipa": "t͡s",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ч",
+   "ipa": "t͡ɕ, tʃ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ш",
+   "ipa": "ʂ, ʃ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "щ",
+   "ipa": "ɕː, ɕ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ъ",
+   "ipa": "∅ (hard sign: no sound; separates consonant from iotated vowel)",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ы",
+   "ipa": "ɨ",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ь",
+   "ipa": "ʲ (soft sign: palatalises preceding consonant)",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "э",
+   "ipa": "ɛ, e",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ю",
+   "ipa": "ju, ʲu",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "я",
+   "ipa": "ja, ʲa",
+   "source": "https://en.wikipedia.org/wiki/Russian_alphabet"
+  },
+  {
+   "letter": "ѕ",
+   "ipa": "d͡z (Macedonian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "џ",
+   "ipa": "dʒ (Serbian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ў",
+   "ipa": "w (Belarusian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "љ",
+   "ipa": "ʎ (Serbian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "њ",
+   "ipa": "ɲ (Serbian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ћ",
+   "ipa": "tɕ (Serbian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ђ",
+   "ipa": "dʑ (Serbian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ј",
+   "ipa": "j (Serbian)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "һ",
+   "ipa": "h (Kazakh, Tatar, Buryat)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ң",
+   "ipa": "ŋ (Kazakh, Kyrgyz, Tatar)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ә",
+   "ipa": "æ (Kazakh, Tatar)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ү",
+   "ipa": "y (Kyrgyz, Tatar)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ө",
+   "ipa": "œ (Kyrgyz, Tatar, Khalkha)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ғ",
+   "ipa": "ʁ (Kazakh, Uzbek)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "қ",
+   "ipa": "q (Kazakh, Uzbek)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ҳ",
+   "ipa": "h (Uzbek)",
+   "source": "https://en.wikipedia.org/wiki/Cyrillic_alphabets"
+  },
+  {
+   "letter": "ҡ",
+   "ipa": "q (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ҙ",
+   "ipa": "ð (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ҫ",
+   "ipa": "θ (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "җ",
+   "ipa": "d͡ʒ (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ө",
+   "ipa": "ø (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ү",
+   "ipa": "ʏ (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ы",
+   "ipa": "ɯ (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ә",
+   "ipa": "æ (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "б",
+   "ipa": "b, β (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ф",
+   "ipa": "ɸ (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "х",
+   "ipa": "χ (Bashkir)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ъ",
+   "ipa": "ʔ (Bashkir; also ь)",
+   "source": "https://en.wikipedia.org/wiki/Bashkir_alphabet"
+  },
+  {
+   "letter": "ӷ",
+   "ipa": "ʁ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҳ",
+   "ipa": "ħ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҭ",
+   "ipa": "tʰ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҟ",
+   "ipa": "qʼ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҵ",
+   "ipa": "t͡sʼ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҷ",
+   "ipa": "t͡ʃʼ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҽ",
+   "ipa": "ʈ͡ʂʰ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҿ",
+   "ipa": "ʈ͡ʂʼ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ԥ",
+   "ipa": "pʰ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ҩ",
+   "ipa": "ɥ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "џ",
+   "ipa": "ɖ͡ʐ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ы",
+   "ipa": "ɨ (Abkhaz)",
+   "source": "https://en.wikipedia.org/wiki/Abkhaz_alphabet"
+  },
+  {
+   "letter": "ӏ",
+   "ipa": "ʕ (Chechen)",
+   "source": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+   "letter": "хь",
+   "ipa": "ħ (Chechen)",
+   "source": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+   "letter": "гӏ",
+   "ipa": "ɣ (Chechen)",
+   "source": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+   "letter": "кх",
+   "ipa": "q (Chechen)",
+   "source": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+   "letter": "къ",
+   "ipa": "qʼ (Chechen)",
+   "source": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+   "letter": "тӏ",
+   "ipa": "tʼ (Chechen)",
+   "source": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+   "letter": "кӏ",
+   "ipa": "kʼ (Chechen)",
+   "source": "https://en.wikipedia.org/wiki/Chechen_language"
+  },
+  {
+   "letter": "лъ",
+   "ipa": "ɬ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "лӏ",
+   "ipa": "ɬʼ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "хь",
+   "ipa": "ħ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "ӏ",
+   "ipa": "ʔ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "къ",
+   "ipa": "q (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "хъ",
+   "ipa": "χ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "гъ",
+   "ipa": "ʁ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "жь",
+   "ipa": "ʑ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "пӏ",
+   "ipa": "pʼ (Kabardian)",
+   "source": "https://en.wikipedia.org/wiki/Kabardian_language"
+  },
+  {
+   "letter": "ԁ",
+   "ipa": "d (Komi De, Molodtsov alphabet)",
+   "source": "https://en.wikipedia.org/wiki/Komi_De"
+  },
+  {
+   "letter": "ԇ",
+   "ipa": "dʑ (Komi, Molodtsov)",
+   "source": "https://en.wikipedia.org/wiki/Komi_language"
+  },
+  {
+   "letter": "ӓ",
+   "ipa": "æ (Hill Mari, Gagauz)",
+   "source": "https://en.wikipedia.org/wiki/A_with_diaeresis_(Cyrillic)"
+  },
+  {
+   "letter": "ѳ",
+   "ipa": "θ (fita, Greek loans; pronounced f in Russian)",
+   "source": "https://en.wikipedia.org/wiki/Fita"
+  }
+ ],
+ "greek": [
+  {
+   "letter": "α",
+   "ipa": "a (Modern); a, aː (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "β",
+   "ipa": "v (Modern); b (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "γ",
+   "ipa": "ɣ, ʝ (Modern); ɡ, ŋ before velars (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "δ",
+   "ipa": "ð (Modern); d̪ (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ε",
+   "ipa": "e",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ζ",
+   "ipa": "z (Modern); zd or dz (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "η",
+   "ipa": "i (Modern); ɛː (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "θ",
+   "ipa": "θ (Modern); t̪ʰ (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ι",
+   "ipa": "i (Modern); i, iː (Ancient); j",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "κ",
+   "ipa": "k, c before e i",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "λ",
+   "ipa": "l",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "μ",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ν",
+   "ipa": "n",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ξ",
+   "ipa": "ks",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ο",
+   "ipa": "o",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "π",
+   "ipa": "p",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ρ",
+   "ipa": "r ~ ɾ",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "σ ς",
+   "ipa": "s; z before voiced consonants",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "τ",
+   "ipa": "t",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "υ",
+   "ipa": "i (Modern); y, yː (Ancient); w",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "φ",
+   "ipa": "f (Modern); pʰ (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "χ",
+   "ipa": "x ~ ç (Modern); kʰ (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ψ",
+   "ipa": "ps",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ω",
+   "ipa": "o (Modern); ɔː (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ου",
+   "ipa": "u",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "αι",
+   "ipa": "e (Modern); ai (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ει",
+   "ipa": "i (Modern); eː (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "μπ",
+   "ipa": "b or mb (Modern)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "ντ",
+   "ipa": "d or nd (Modern)",
+   "source": "https://en.wikipedia.org/wiki/Greek_alphabet"
+  },
+  {
+   "letter": "γκ",
+   "ipa": "ɡ ~ ɟ or ŋɡ ~ ɲɟ (Modern)",
+   "source": "https://en.wikipedia.org/wiki/Greek_orthography"
+  },
+  {
+   "letter": "γγ",
+   "ipa": "ŋɡ (Modern)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Greek"
+  },
+  {
+   "letter": "τσ",
+   "ipa": "t͡s (Modern)",
+   "source": "https://en.wikipedia.org/wiki/Greek_orthography"
+  },
+  {
+   "letter": "τζ",
+   "ipa": "d͡z (Modern)",
+   "source": "https://en.wikipedia.org/wiki/Greek_orthography"
+  },
+  {
+   "letter": "῾ (rough breathing)",
+   "ipa": "h (Ancient)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Greek"
+  }
+ ],
+ "georgian": [
+  {
+   "letter": "ა",
+   "ipa": "ɑ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ბ",
+   "ipa": "b",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "გ",
+   "ipa": "ɡ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "დ",
+   "ipa": "d",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ე",
+   "ipa": "ɛ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ვ",
+   "ipa": "v",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ზ",
+   "ipa": "z",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "თ",
+   "ipa": "t⁽ʰ⁾",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ი",
+   "ipa": "i",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "კ",
+   "ipa": "kʼ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ლ",
+   "ipa": "l",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "მ",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ნ",
+   "ipa": "n",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ო",
+   "ipa": "ɔ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "პ",
+   "ipa": "pʼ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ჟ",
+   "ipa": "ʒ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "რ",
+   "ipa": "r",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ს",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ტ",
+   "ipa": "tʼ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "უ",
+   "ipa": "u",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ფ",
+   "ipa": "p⁽ʰ⁾",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ქ",
+   "ipa": "k⁽ʰ⁾",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ღ",
+   "ipa": "ɣ (Help:IPA: ʁ)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ყ",
+   "ipa": "qʼ (Help:IPA: χʼ)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "შ",
+   "ipa": "ʃ",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ჩ",
+   "ipa": "tʃ⁽ʰ⁾",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ც",
+   "ipa": "ts⁽ʰ⁾",
+   "source": "https://en.wikipedia.org/wiki/Georgian_alphabet"
+  },
+  {
+   "letter": "ძ",
+   "ipa": "dz",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Georgian"
+  },
+  {
+   "letter": "წ",
+   "ipa": "tsʼ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Georgian"
+  },
+  {
+   "letter": "ჭ",
+   "ipa": "tʃʼ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Georgian"
+  },
+  {
+   "letter": "ხ",
+   "ipa": "χ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Georgian"
+  },
+  {
+   "letter": "ჯ",
+   "ipa": "dʒ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Georgian"
+  },
+  {
+   "letter": "ჰ",
+   "ipa": "h",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Georgian"
+  },
+  {
+   "letter": "ჱ",
+   "ipa": "e̞j (archaic)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_scripts"
+  },
+  {
+   "letter": "ჲ",
+   "ipa": "j (archaic; Mingrelian, Laz)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_scripts"
+  },
+  {
+   "letter": "ჳ",
+   "ipa": "wi~vi (Old Georgian); w (Svan)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_scripts"
+  },
+  {
+   "letter": "ჴ",
+   "ipa": "q⁽ʰ⁾ (archaic; Svan)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_scripts"
+  },
+  {
+   "letter": "ჵ",
+   "ipa": "oː (archaic)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_scripts"
+  },
+  {
+   "letter": "ჶ",
+   "ipa": "f (foreign names; Laz, Svan)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Georgian"
+  },
+  {
+   "letter": "ჷ",
+   "ipa": "ə (Mingrelian, Svan)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_scripts"
+  },
+  {
+   "letter": "ჸ",
+   "ipa": "ʔ (Mingrelian, Svan)",
+   "source": "https://en.wikipedia.org/wiki/Georgian_scripts"
+  }
+ ],
+ "armenian": [
+  {
+   "letter": "ա",
+   "ipa": "ɑ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "բ",
+   "ipa": "b (Eastern); pʰ (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "գ",
+   "ipa": "ɡ (Eastern); kʰ (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "դ",
+   "ipa": "d (Eastern); tʰ (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ե",
+   "ipa": "ɛ; jɛ word-initially",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "զ",
+   "ipa": "z",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "է",
+   "ipa": "ɛ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ը",
+   "ipa": "ə",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "թ",
+   "ipa": "tʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ժ",
+   "ipa": "ʒ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ի",
+   "ipa": "i",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "լ",
+   "ipa": "l",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "խ",
+   "ipa": "χ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ծ",
+   "ipa": "ts (Eastern); dz (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "կ",
+   "ipa": "k (Eastern); ɡ (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "հ",
+   "ipa": "h",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ձ",
+   "ipa": "dz (Eastern); tsʰ (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ղ",
+   "ipa": "ʁ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ճ",
+   "ipa": "tʃ (Eastern); dʒ (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "մ",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "յ",
+   "ipa": "j",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ն",
+   "ipa": "n, ŋ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "շ",
+   "ipa": "ʃ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ո",
+   "ipa": "ɔ; vɔ word-initially",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "չ",
+   "ipa": "tʃʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "պ",
+   "ipa": "p (Eastern); b (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ջ",
+   "ipa": "dʒ (Eastern); tʃʰ (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ռ",
+   "ipa": "r",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ս",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "վ",
+   "ipa": "v",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "տ",
+   "ipa": "t (Eastern); d (Western)",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ր",
+   "ipa": "ɹ~ɻ~ɾ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ց",
+   "ipa": "tsʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ւ",
+   "ipa": "w, v",
+   "source": "https://en.wikipedia.org/wiki/Armenian_alphabet"
+  },
+  {
+   "letter": "փ",
+   "ipa": "pʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ք",
+   "ipa": "kʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "ու",
+   "ipa": "u",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "օ",
+   "ipa": "o (Help:IPA: ɔ)",
+   "source": "https://en.wikipedia.org/wiki/Armenian_alphabet"
+  },
+  {
+   "letter": "ֆ",
+   "ipa": "f",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "և",
+   "ipa": "ɛv; jɛv word-initially",
+   "source": "https://en.wikipedia.org/wiki/Armenian_alphabet"
+  },
+  {
+   "letter": "իւ",
+   "ipa": "ʏ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  },
+  {
+   "letter": "էօ",
+   "ipa": "œ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Armenian"
+  }
+ ],
+ "runic": [
+  {
+   "letter": "ᚠ",
+   "ipa": "f",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚢ",
+   "ipa": "u",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚦ",
+   "ipa": "θ or ð",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚨ",
+   "ipa": "ɑ",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚱ",
+   "ipa": "r",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚲ",
+   "ipa": "k",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚷ",
+   "ipa": "g, ɣ",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚹ",
+   "ipa": "w",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚺ",
+   "ipa": "h, x",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᚾ",
+   "ipa": "n",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛁ",
+   "ipa": "i",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛃ",
+   "ipa": "j",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛇ",
+   "ipa": "ɪ or æ (disputed)",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛈ",
+   "ipa": "p",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛉ",
+   "ipa": "z (Proto-Norse ʀ)",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛊ",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛏ",
+   "ipa": "t",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛒ",
+   "ipa": "b, β",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛖ",
+   "ipa": "e",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛗ",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛚ",
+   "ipa": "l",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛜ",
+   "ipa": "ŋ",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛞ",
+   "ipa": "d, ð",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  },
+  {
+   "letter": "ᛟ",
+   "ipa": "o",
+   "source": "https://en.wikipedia.org/wiki/Elder_Futhark"
+  }
+ ],
+ "arabic": [
+  {
+   "letter": "ا",
+   "ipa": "ʔ, aː",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ب",
+   "ipa": "b",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ت",
+   "ipa": "t",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ث",
+   "ipa": "θ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ج",
+   "ipa": "d͡ʒ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ح",
+   "ipa": "ħ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "خ",
+   "ipa": "x",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "د",
+   "ipa": "d",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ذ",
+   "ipa": "ð",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ر",
+   "ipa": "r",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ز",
+   "ipa": "z",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "س",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ش",
+   "ipa": "ʃ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ص",
+   "ipa": "sˤ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ض",
+   "ipa": "dˤ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ط",
+   "ipa": "tˤ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ظ",
+   "ipa": "ðˤ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ع",
+   "ipa": "ʕ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "غ",
+   "ipa": "ɣ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ف",
+   "ipa": "f",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ق",
+   "ipa": "q",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ك",
+   "ipa": "k",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ل",
+   "ipa": "l",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "م",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ن",
+   "ipa": "n",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ه",
+   "ipa": "h",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "و",
+   "ipa": "w, uː",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ي",
+   "ipa": "j, iː",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ء",
+   "ipa": "ʔ",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "پ",
+   "ipa": "p (foreign words; Persian)",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ڤ",
+   "ipa": "v (foreign names and loanwords)",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ڨ",
+   "ipa": "g (Algeria, Tunisia)",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "ڭ",
+   "ipa": "g (Morocco)",
+   "source": "https://en.wikipedia.org/wiki/Arabic_alphabet"
+  },
+  {
+   "letter": "چ",
+   "ipa": "t͡ʃ (Persian; Gulf/Iraqi Arabic)",
+   "source": "https://en.wikipedia.org/wiki/Persian_alphabet"
+  },
+  {
+   "letter": "ژ",
+   "ipa": "ʒ (Persian)",
+   "source": "https://en.wikipedia.org/wiki/Persian_alphabet"
+  },
+  {
+   "letter": "گ",
+   "ipa": "ɡ (Persian)",
+   "source": "https://en.wikipedia.org/wiki/Persian_alphabet"
+  }
+ ],
+ "hebrew": [
+  {
+   "letter": "א",
+   "ipa": "ʔ or silent",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "בּ",
+   "ipa": "b",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ב",
+   "ipa": "v",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "גּ",
+   "ipa": "ɡ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ג",
+   "ipa": "ɣ (without dagesh; Biblical begadkefat fricative)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "דּ",
+   "ipa": "d",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ד",
+   "ipa": "ð (without dagesh; Biblical begadkefat fricative)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ה",
+   "ipa": "h",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ו",
+   "ipa": "v",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ז",
+   "ipa": "z",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ח",
+   "ipa": "χ (Modern); ħ (Biblical)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ט",
+   "ipa": "t (Modern); tˤ (Biblical)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "י",
+   "ipa": "j",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "כּ",
+   "ipa": "k",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "כ ך",
+   "ipa": "χ (ך x~χ)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ל",
+   "ipa": "l",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "מ ם",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "נ ן",
+   "ipa": "n",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ס",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ע",
+   "ipa": "ʔ~ʕ or silent (Modern); ʕ (Biblical)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "פּ",
+   "ipa": "p",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "פ ף",
+   "ipa": "f",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "צ ץ",
+   "ipa": "ts (Modern); sˤ (Biblical)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ק",
+   "ipa": "k (Modern); q (Biblical)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ר",
+   "ipa": "ʁ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "שׁ",
+   "ipa": "ʃ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "שׂ",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ת",
+   "ipa": "t (Biblical fricative θ; Iraqi/Yemenite θ)",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ג׳",
+   "ipa": "d͡ʒ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ז׳",
+   "ipa": "ʒ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "צ׳",
+   "ipa": "t͡ʃ; dˤ in scientific transliteration",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ו׳ / וו",
+   "ipa": "w",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ד׳",
+   "ipa": "ð",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ח׳",
+   "ipa": "χ / x",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ט׳",
+   "ipa": "ðˤ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ע׳ / ר׳",
+   "ipa": "ʁ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  },
+  {
+   "letter": "ת׳",
+   "ipa": "θ",
+   "source": "https://en.wikipedia.org/wiki/Hebrew_alphabet"
+  }
+ ],
+ "devanagari": [
+  {
+   "letter": "क",
+   "ipa": "k",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ख",
+   "ipa": "kʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ग",
+   "ipa": "ɡ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "घ",
+   "ipa": "ɡʱ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "च",
+   "ipa": "t͡ʃ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "छ",
+   "ipa": "t͡ʃʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ज",
+   "ipa": "dʒ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "झ",
+   "ipa": "dʒʱ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ट",
+   "ipa": "ʈ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ठ",
+   "ipa": "ʈʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ड",
+   "ipa": "ɖ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ढ",
+   "ipa": "ɖʱ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ण",
+   "ipa": "ɳ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "त",
+   "ipa": "t",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "थ",
+   "ipa": "tʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "द",
+   "ipa": "d",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ध",
+   "ipa": "dʱ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "न",
+   "ipa": "n",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "प",
+   "ipa": "p",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "फ",
+   "ipa": "pʰ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ब",
+   "ipa": "b",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "भ",
+   "ipa": "bʱ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "म",
+   "ipa": "m",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "य",
+   "ipa": "j",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "र",
+   "ipa": "r, ɾ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ल",
+   "ipa": "l",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "व",
+   "ipa": "ʋ, w",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "श",
+   "ipa": "ʃ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ष",
+   "ipa": "ʂ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "स",
+   "ipa": "s",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ह",
+   "ipa": "ɦ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "अ",
+   "ipa": "ə",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "आ ा",
+   "ipa": "aː",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "इ ि",
+   "ipa": "ɪ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ई ी",
+   "ipa": "iː",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "उ ु",
+   "ipa": "ʊ",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ऊ ू",
+   "ipa": "uː",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ए े",
+   "ipa": "eː",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ऐ ै",
+   "ipa": "ɛː",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "ओ ो",
+   "ipa": "oː",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "औ ौ",
+   "ipa": "ɔː",
+   "source": "https://en.wikipedia.org/wiki/Help:IPA/Hindi_and_Urdu"
+  },
+  {
+   "letter": "क़",
+   "ipa": "q",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "ख़",
+   "ipa": "x",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "ग़",
+   "ipa": "ɣ",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "ज़",
+   "ipa": "z",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "झ़",
+   "ipa": "ʒ",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "फ़",
+   "ipa": "f",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "ड़",
+   "ipa": "ɽ",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "ढ़",
+   "ipa": "ɽʰ",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "च़",
+   "ipa": "t͡s (Kashmiri)",
+   "source": "https://en.wikipedia.org/wiki/Nukta"
+  },
+  {
+   "letter": "ॽ",
+   "ipa": "ʔ (glottal stop letter, Limbu)",
+   "source": "https://en.wikipedia.org/wiki/Glottal_stop"
+  },
+  {
+   "letter": "ऽ",
+   "ipa": "no sound (avagraha: prodelision of अ, vowel prolongation)",
+   "source": "https://en.wikipedia.org/wiki/Avagraha"
+  }
+ ]
+}

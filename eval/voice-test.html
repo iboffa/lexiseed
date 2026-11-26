@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice listening test</title>
+<style>
+  :root { --bg: #faf8f4; --fg: #1d1b18; --muted: #6d675e; --line: #e2ddd3; --accent: #9a4b1f; --card: #fff; --pick: #f3e3d6; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #17150f; --fg: #ece7dc; --muted: #a39b8c; --line: #3a352c; --accent: #e08a52; --card: #201d16; --pick: #4a3020; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.5 system-ui, sans-serif; }
+  main { max-width: 1060px; margin: 0 auto; padding: 20px 16px 60px; }
+  h1 { font-size: 22px; margin: 0 0 4px; } h2 { font-size: 17px; margin: 28px 0 8px; }
+  p { margin: 6px 0; } .muted { color: var(--muted); }
+  .bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 12px; margin: 14px 0; position: sticky; top: 0; z-index: 2; }
+  label { display: inline-flex; gap: 6px; align-items: center; }
+  button, select, input { font: inherit; color: inherit; background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 4px 9px; }
+  button { cursor: pointer; } button.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+  button:disabled { opacity: .45; cursor: default; }
+  #status { min-width: 220px; }
+  table { width: 100%; border-collapse: collapse; }
+  td, th { text-align: left; padding: 7px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); font-weight: 600; }
+  .ipa { font-family: "Doulos SIL", "Charis SIL", "Gentium Plus", serif; font-size: 16px; }
+  .sub { font-size: 12px; color: var(--muted); }
+  .play { white-space: nowrap; }
+  .vote { white-space: nowrap; } .vote button { padding: 2px 7px; font-size: 13px; } .vote button.on { background: var(--pick); border-color: var(--accent); }
+  textarea { width: 100%; min-height: 110px; font: 13px/1.4 ui-monospace, monospace; background: var(--card); color: var(--fg); border: 1px solid var(--line); border-radius: 6px; padding: 8px; }
+  @media (max-width: 700px) { td:nth-child(3), th:nth-child(3) { display: none; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Voice listening test</h1>
+  <p class="muted">The built-in formant voice next to Kokoro-82M, a small open neural voice that runs in this browser and is given the IPA directly. Kokoro lacks some sounds, so the "Kokoro reads" column shows what it is actually given. Loading Kokoro downloads it once (about 325 MB on a GPU, 92 MB on the CPU; the browser caches it); nothing is sent anywhere.</p>
+
+  <div class="bar">
+    <button id="load" class="primary">Load Kokoro</button>
+    <label>Device <select id="device"><option value="auto">Auto (GPU fp32 if available)</option><option value="wasm">CPU (wasm, q8, ≈92 MB)</option><option value="webgpu|fp16">GPU (WebGPU, fp16, ≈163 MB)</option></select></label>
+    <label>Kokoro voice <select id="voice"></select></label>
+    <label>Speed <input id="speed" type="number" min="0.6" max="1.4" step="0.1" value="0.9" style="width:64px"></label>
+    <label>Built-in <select id="bvoice"><option value="low">Low</option><option value="high">High</option><option value="child">Child</option></select></label>
+    <span id="status" class="muted">Kokoro not loaded</span>
+  </div>
+
+  <h2>1. Hard sounds</h2>
+  <p class="muted">Sounds that are rare in Kokoro's training languages or missing from its symbol set.</p>
+  <table><thead><tr><th>Test</th><th>IPA</th><th>Kokoro reads</th><th>Play</th><th>Better</th></tr></thead><tbody id="hard"></tbody></table>
+
+  <h2>2. Generated languages</h2>
+  <p class="muted">Words and one sentence from languages the generator makes (seed “voice”).</p>
+  <table><thead><tr><th>Language</th><th>IPA</th><th>Kokoro reads</th><th>Play</th><th>Better</th></tr></thead><tbody id="gen"></tbody></table>
+
+  <h2>Your verdict</h2>
+  <p class="muted">Votes are kept in this browser. Copy this summary back into the chat.</p>
+  <textarea id="summary" readonly></textarea>
+</main>
+
+<script type="module">
+import { generate } from '../src/language.js';
+import { sentenceIPA } from '../src/render.js';
+import { parseIPA, planSpeech, synthesize, playSamples } from '../src/speech.js';
+import { ipaToKokoro, loadKokoro, kokoroSay, isLoaded, chooseBlend, describeBlend, backendName } from '../src/kokoro.js';
+
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+// Kokoro voices worth trying for invented languages: one per training language
+const VOICES = [['if_sara', 'Italian, female'], ['im_nicola', 'Italian, male'], ['ef_dora', 'Spanish, female'], ['em_alex', 'Spanish, male'], ['pf_dora', 'Portuguese, female'], ['pm_alex', 'Portuguese, male'], ['ff_siwis', 'French, female'], ['hf_alpha', 'Hindi, female'], ['hm_omega', 'Hindi, male'], ['jf_alpha', 'Japanese, female'], ['jm_kumo', 'Japanese, male'], ['zf_xiaobei', 'Mandarin, female'], ['zm_yunjian', 'Mandarin, male'], ['af_heart', 'US English, female'], ['am_michael', 'US English, male'], ['bf_emma', 'UK English, female']];
+$('#voice').innerHTML = `<option value="adaptive|f">Adaptive blend, female</option><option value="adaptive|m">Adaptive blend, male</option><option value="neutral|f">Neutral blend (all), female</option><option value="neutral|m">Neutral blend (all), male</option>` + VOICES.map(([v, n]) => `<option value="${v}">${esc(n)} (${v})</option>`).join('');
+
+const HARD = [
+  ['Ejectives', '/kʼaˈtʼa ˈpʼiqʼa/'],
+  ['Uvulars', '/qaˈχar ˈʁuqa/'],
+  ['Retroflex', '/ˈʈaɳɖa ʂuˈʐa/'],
+  ['Long vs short vowel', '/ˈmaːla ˈmala/'],
+  ['Geminate vs single', '/ˈatta ˈata/'],
+  ['Nasal vowels', '/ˈpã.tõ ˈkɛ̃.sa/'],
+  ['Front rounded vowels', '/ˈtyø.lø ˈkyː.nø/'],
+  ['Central and back unrounded', '/ˈkɨ.rɯ ˈtɤ.mɨ/'],
+  ['Pharyngeals', '/ħaˈʕiːl/'],
+  ['Lateral fricative', '/ɬaˈɬɛn/'],
+  ['Aspirated and breathy', '/ˈkʰamʱa ˈbʱaːtʰi/'],
+  ['Palatalised', '/ˈtʲotʲa ˈnʲelʲ/'],
+  ['Prenasalised and click', '/ᵐbaˈᵑɡoǃa ˈⁿdɛ.ɓa/'],
+  ['Heavy clusters', '/ˈstrɛlkt ˈvzglʲat/'],
+  ['Four tones', '/ma˥ ma˧˥ ma˨˩˦ ma˥˩/'],
+];
+const FAMS = [['romance', 'Romance'], ['slavic', 'Slavic'], ['germanic', 'Germanic'], ['germanic', 'Germanic + heavy Romance', { influence: 'romance', influenceLevel: 'heavy' }], ['celtic', 'Celtic'], ['hellenic', 'Hellenic'], ['indoaryan', 'Indo-Aryan'], ['semitic', 'Semitic'], ['uralic', 'Uralic'], ['turkic', 'Turkic'], ['sinitic', 'Sinitic'], ['japonic', 'Japonic'], ['bantu', 'Bantu'], ['polynesian', 'Polynesian'], ['original', 'Original (invented)']];
+
+const rows = [];
+// hard-sound rows have no language behind them: Adaptive falls back to the neutral blend there
+const blendFor = (r) => { const [mode, g] = $('#voice').value.split('|'); return g ? chooseBlend(r.ph || null, { gender: g, mode: r.ph ? mode : 'neutral' }) : $('#voice').value; };
+for (const [name, ipa] of HARD) rows.push({ table: 'hard', id: 'h:' + name, label: name, ipa });
+for (const [fam, name, extra] of FAMS) {
+  const L = generate({ family: fam, ...(extra || {}) }, 'voice');
+  const pick = extra ? L.lex.entries.filter(e => e.borrowed).slice(0, 4) : ['water', 'mother', 'king', 'star'].map(g => L.lex.byGloss[g]).filter(Boolean);
+  const words = pick.map(e => L.ipa(e.segs).replace(/^\/|\/$/g, ''));
+  const ex = L.examples.general.basic;
+  rows.push({ table: 'gen', ph: L.ph, id: 'g:' + name + ':w', label: `${name} <span class="sub">${esc(L.name.exonym)}, ${extra ? 'loanwords' : 'words'}</span>`, ipa: '/' + words.join(' | ') + '/' });
+  rows.push({ table: 'gen', ph: L.ph, id: 'g:' + name + ':s', label: `${name} <span class="sub">sentence: ‘${esc(ex.en)}’</span>`, ipa: '/' + sentenceIPA(L, ex.words) + '/' });
+}
+
+let votes = {};
+try { votes = JSON.parse(localStorage.getItem('conlang-forge:voice-test') || '{}'); } catch { votes = {}; }
+const saveVotes = () => { try { localStorage.setItem('conlang-forge:voice-test', JSON.stringify(votes)); } catch { /* storage unavailable */ } summary(); };
+
+function kokoroCell(ipa) {
+  const k = ipaToKokoro(ipa);
+  const subs = k.subs.length ? `<div class="sub">${k.subs.map(([a, b]) => `${esc(a)}→${esc(b)}`).join(' ')}</div>` : '';
+  const drop = k.dropped.length ? `<div class="sub">dropped: ${esc(k.dropped.join(' '))}</div>` : '';
+  return `<span class="ipa">${esc(k.text)}</span>${subs}${drop}`;
+}
+function render() {
+  for (const t of ['hard', 'gen']) {
+    $('#' + t).innerHTML = rows.filter(r => r.table === t).map(r => `<tr data-id="${esc(r.id)}">
+      <td>${r.label}</td><td class="ipa">${esc(r.ipa)}</td><td>${kokoroCell(r.ipa)}</td>
+      <td class="play"><button data-act="builtin">▶ Built-in</button> <button data-act="kokoro" ${isLoaded() ? '' : 'disabled'}>▶ Kokoro</button><div class="sub" data-ms></div></td>
+      <td class="vote">${['kokoro', 'same', 'builtin'].map(v => `<button data-vote="${v}" class="${votes[r.id] === v ? 'on' : ''}">${v === 'kokoro' ? 'Kokoro' : v === 'builtin' ? 'Built-in' : '='}</button>`).join(' ')}</td></tr>`).join('');
+  }
+  summary();
+}
+function summary() {
+  const voted = rows.filter(r => votes[r.id]);
+  const count = (v) => voted.filter(r => votes[r.id] === v).length;
+  const lines = [`Voice test: Kokoro better ${count('kokoro')}, same ${count('same')}, built-in better ${count('builtin')} (of ${rows.length}; Kokoro voice ${$('#voice').value}, speed ${$('#speed').value})`];
+  for (const r of voted) lines.push(`- ${r.label.replace(/<[^>]+>/g, '')}: ${votes[r.id]}`);
+  $('#summary').value = lines.join('\n');
+}
+
+document.addEventListener('click', async (ev) => {
+  const b = ev.target.closest('button'); if (!b) return;
+  const tr = b.closest('tr[data-id]');
+  if (b.dataset.vote && tr) { votes[tr.dataset.id] = votes[tr.dataset.id] === b.dataset.vote ? undefined : b.dataset.vote; saveVotes(); render(); return; }
+  if (!b.dataset.act || !tr) return;
+  const r = rows.find(x => x.id === tr.dataset.id);
+  const ms = tr.querySelector('[data-ms]');
+  if (b.dataset.act === 'builtin') {
+    const t0 = performance.now();
+    playSamples(synthesize(planSpeech(parseIPA(r.ipa), { voice: $('#bvoice').value })));
+    ms.textContent = `built-in ${(performance.now() - t0).toFixed(0)} ms`;
+  } else {
+    b.disabled = true; ms.textContent = 'Kokoro rendering…';
+    try {
+      const out = await kokoroSay(r.ipa, { voice: blendFor(r), speed: Number($('#speed').value) || 1 });
+      playSamples(out.samples, out.sr);
+      ms.textContent = `${out.cached ? 'Kokoro (cached)' : `Kokoro ${out.ms.toFixed(0)} ms`} · ${describeBlend(blendFor(r))}`;
+    } catch (e) { ms.textContent = 'error: ' + e.message; console.error(e); }
+    b.disabled = false;
+  }
+});
+
+$('#load').addEventListener('click', async () => {
+  const btn = $('#load'); btn.disabled = true;
+  const files = {};
+  const t0 = performance.now();
+  try {
+    await loadKokoro({ device: $('#device').value.split('|')[0], dtype: $('#device').value.split('|')[1] || null, onProgress: (p) => {
+      if (p.file && p.total) files[p.file] = [p.loaded || 0, p.total];
+      const tot = Object.values(files).reduce((a, [l, t]) => [a[0] + l, a[1] + t], [0, 0]);
+      if (tot[1]) $('#status').textContent = `Downloading ${(tot[0] / 1e6).toFixed(0)} / ${(tot[1] / 1e6).toFixed(0)} MB`;
+    } });
+    $('#status').textContent = `Kokoro ready on ${backendName()} (${((performance.now() - t0) / 1000).toFixed(1)} s)`;
+    btn.textContent = 'Kokoro loaded';
+    render();
+  } catch (e) { $('#status').textContent = 'Load failed: ' + e.message; btn.disabled = false; console.error(e); }
+});
+$('#voice').addEventListener('change', summary);
+$('#speed').addEventListener('change', summary);
+render();
+</script>
+</body>
+</html>

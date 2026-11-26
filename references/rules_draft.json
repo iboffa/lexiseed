@@ -1,0 +1,3460 @@
+{
+  "n_examples": 71,
+  "sources": [
+    "https://phoible.org/languages/kuni1268 https://phoible.org/inventories/view/2336 https://en.wikipedia.org/wiki/Kunigami_language",
+    "https://phoible.org/languages/miya1259 https://phoible.org/inventories/view/2453 https://en.wikipedia.org/wiki/Miyakoan_language",
+    "https://phoible.org/languages/sans1269 https://phoible.org/inventories/view/1782 https://en.wikipedia.org/wiki/Sanskrit",
+    "https://wals.info/languoid/lect/wals_code_aeg https://wals.info/valuesets/1A-aeg https://wals.info/valuesets/2A-aeg https://wals.info/valuesets/12A-aeg https://wals.info/valuesets/13A-aeg https://wals.info/valuesets/20A-aeg https://wals.info/valuesets/26A-aeg https://wals.info/valuesets/30A-aeg https://wals.info/valuesets/37A-aeg https://wals.info/valuesets/38A-aeg https://wals.info/valuesets/49A-aeg https://wals.info/valuesets/51A-aeg https://wals.info/valuesets/81A-aeg https://wals.info/valuesets/85A-aeg https://wals.info/valuesets/86A-aeg https://wals.info/valuesets/87A-aeg https://wals.info/valuesets/98A-aeg https://wals.info/valuesets/65A-aeg https://wals.info/valuesets/67A-aeg https://phoible.org/languages/egyp1253 https://phoible.org/inventories/view/132 https://en.wikipedia.org/wiki/Egyptian_Arabic",
+    "https://wals.info/languoid/lect/wals_code_amh https://wals.info/valuesets/1A-amh https://wals.info/valuesets/2A-amh https://wals.info/valuesets/12A-amh https://wals.info/valuesets/13A-amh https://wals.info/valuesets/26A-amh https://wals.info/valuesets/30A-amh https://wals.info/valuesets/37A-amh https://wals.info/valuesets/38A-amh https://wals.info/valuesets/49A-amh https://wals.info/valuesets/51A-amh https://wals.info/valuesets/81A-amh https://wals.info/valuesets/85A-amh https://wals.info/valuesets/86A-amh https://wals.info/valuesets/87A-amh https://wals.info/valuesets/65A-amh https://wals.info/valuesets/67A-amh https://phoible.org/languages/amha1245 https://phoible.org/inventories/view/131 https://en.wikipedia.org/wiki/Amharic",
+    "https://wals.info/languoid/lect/wals_code_ams https://wals.info/valuesets/26A-ams https://wals.info/valuesets/37A-ams https://wals.info/valuesets/51A-ams https://wals.info/valuesets/81A-ams https://wals.info/valuesets/85A-ams https://wals.info/valuesets/86A-ams https://wals.info/valuesets/87A-ams https://phoible.org/languages/stan1318 https://phoible.org/inventories/view/2157 https://en.wikipedia.org/wiki/Modern_Standard_Arabic",
+    "https://wals.info/languoid/lect/wals_code_aze https://wals.info/valuesets/1A-aze https://wals.info/valuesets/2A-aze https://wals.info/valuesets/12A-aze https://wals.info/valuesets/13A-aze https://wals.info/valuesets/26A-aze https://wals.info/valuesets/51A-aze https://wals.info/valuesets/81A-aze https://wals.info/valuesets/86A-aze https://wals.info/valuesets/87A-aze https://wals.info/valuesets/65A-aze https://wals.info/valuesets/67A-aze https://phoible.org/languages/nort2697 https://phoible.org/inventories/view/187 https://en.wikipedia.org/wiki/Azerbaijani_language",
+    "https://wals.info/languoid/lect/wals_code_ben https://phoible.org/languages/beng1280 https://phoible.org/inventories/view/177 https://en.wikipedia.org/wiki/Bengali_language",
+    "https://wals.info/languoid/lect/wals_code_bre https://wals.info/languoid/lect/wals_code_bre.rdf https://phoible.org/languages/bret1244 https://phoible.org/inventories/view/157 https://wals.info/valuesets/1A-bre https://wals.info/valuesets/2A-bre https://wals.info/valuesets/12A-bre https://wals.info/valuesets/13A-bre https://wals.info/valuesets/26A-bre https://wals.info/valuesets/37A-bre https://wals.info/valuesets/38A-bre https://wals.info/valuesets/51A-bre https://wals.info/valuesets/81A-bre https://wals.info/valuesets/85A-bre https://wals.info/valuesets/86A-bre https://wals.info/valuesets/87A-bre https://en.wikipedia.org/wiki/Breton_language",
+    "https://wals.info/languoid/lect/wals_code_bul https://phoible.org/languages/bulg1262 https://phoible.org/inventories/view/167 https://en.wikipedia.org/wiki/Bulgarian_language",
+    "https://wals.info/languoid/lect/wals_code_cnt https://phoible.org/languages/yuec1235 https://phoible.org/inventories/view/19 https://en.wikipedia.org/wiki/Cantonese",
+    "https://wals.info/languoid/lect/wals_code_crn https://wals.info/languoid/lect/wals_code_crn.rdf https://wals.info/valuesets/26A-crn https://wals.info/valuesets/37A-crn https://wals.info/valuesets/38A-crn https://wals.info/valuesets/51A-crn https://wals.info/valuesets/81A-crn https://wals.info/valuesets/85A-crn https://wals.info/valuesets/86A-crn https://wals.info/valuesets/87A-crn https://en.wikipedia.org/wiki/Cornish_language",
+    "https://wals.info/languoid/lect/wals_code_ctl https://wals.info/languoid/lect/wals_code_ctl.rdf https://phoible.org/languages/stan1289 https://phoible.org/inventories/view/1138 https://wals.info/valuesets/1A-ctl https://wals.info/valuesets/2A-ctl https://wals.info/valuesets/12A-ctl https://wals.info/valuesets/13A-ctl https://wals.info/valuesets/38A-ctl https://wals.info/valuesets/49A-ctl https://wals.info/valuesets/81A-ctl https://wals.info/valuesets/85A-ctl https://wals.info/valuesets/86A-ctl https://wals.info/valuesets/87A-ctl https://en.wikipedia.org/wiki/Catalan_language",
+    "https://wals.info/languoid/lect/wals_code_cze https://phoible.org/languages/czec1258 https://phoible.org/inventories/view/1140 https://en.wikipedia.org/wiki/Czech_language",
+    "https://wals.info/languoid/lect/wals_code_dut https://phoible.org/languages/dutc1256 https://phoible.org/inventories/view/1050 https://en.wikipedia.org/wiki/Dutch_language",
+    "https://wals.info/languoid/lect/wals_code_eng https://phoible.org/languages/stan1293 https://phoible.org/inventories/view/160 https://en.wikipedia.org/wiki/English_language",
+    "https://wals.info/languoid/lect/wals_code_est https://wals.info/valuesets/26A-est https://wals.info/valuesets/37A-est https://wals.info/valuesets/38A-est https://wals.info/valuesets/49A-est https://wals.info/valuesets/51A-est https://wals.info/valuesets/81A-est https://wals.info/valuesets/85A-est https://wals.info/valuesets/86A-est https://wals.info/valuesets/87A-est https://phoible.org/languages/esto1258 https://phoible.org/inventories/view/2248 https://en.wikipedia.org/wiki/Estonian_language",
+    "https://wals.info/languoid/lect/wals_code_fin https://wals.info/valuesets/1A-fin https://wals.info/valuesets/2A-fin https://wals.info/valuesets/12A-fin https://wals.info/valuesets/13A-fin https://wals.info/valuesets/20A-fin https://wals.info/valuesets/26A-fin https://wals.info/valuesets/30A-fin https://wals.info/valuesets/37A-fin https://wals.info/valuesets/38A-fin https://wals.info/valuesets/49A-fin https://wals.info/valuesets/51A-fin https://wals.info/valuesets/81A-fin https://wals.info/valuesets/85A-fin https://wals.info/valuesets/86A-fin https://wals.info/valuesets/87A-fin https://wals.info/valuesets/98A-fin https://wals.info/valuesets/65A-fin https://wals.info/valuesets/67A-fin https://phoible.org/languages/finn1318 https://phoible.org/inventories/view/180 https://en.wikipedia.org/wiki/Finnish_language",
+    "https://wals.info/languoid/lect/wals_code_fre https://wals.info/languoid/lect/wals_code_fre.rdf https://phoible.org/languages/stan1290 https://phoible.org/inventories/view/162 https://wals.info/valuesets/1A-fre https://wals.info/valuesets/2A-fre https://wals.info/valuesets/12A-fre https://wals.info/valuesets/13A-fre https://wals.info/valuesets/20A-fre https://wals.info/valuesets/26A-fre https://wals.info/valuesets/30A-fre https://wals.info/valuesets/37A-fre https://wals.info/valuesets/38A-fre https://wals.info/valuesets/49A-fre https://wals.info/valuesets/51A-fre https://wals.info/valuesets/81A-fre https://wals.info/valuesets/85A-fre https://wals.info/valuesets/86A-fre https://wals.info/valuesets/87A-fre https://wals.info/valuesets/98A-fre https://wals.info/valuesets/65A-fre https://wals.info/valuesets/67A-fre https://en.wikipedia.org/wiki/French_language",
+    "https://wals.info/languoid/lect/wals_code_fuz https://phoible.org/languages/mind1253 https://phoible.org/inventories/view/276 https://en.wikipedia.org/wiki/Fuzhou_dialect",
+    "https://wals.info/languoid/lect/wals_code_gae https://wals.info/languoid/lect/wals_code_gae.rdf https://phoible.org/languages/scot1245 https://phoible.org/inventories/view/2601 https://wals.info/valuesets/26A-gae https://wals.info/valuesets/30A-gae https://wals.info/valuesets/37A-gae https://wals.info/valuesets/38A-gae https://wals.info/valuesets/51A-gae https://wals.info/valuesets/81A-gae https://wals.info/valuesets/85A-gae https://wals.info/valuesets/86A-gae https://wals.info/valuesets/87A-gae https://en.wikipedia.org/wiki/Scottish_Gaelic",
+    "https://wals.info/languoid/lect/wals_code_ger https://phoible.org/languages/stan1295 https://phoible.org/inventories/view/161 https://en.wikipedia.org/wiki/German_language",
+    "https://wals.info/languoid/lect/wals_code_grk https://wals.info/languoid/lect/wals_code_grk.rdf https://phoible.org/languages/mode1248 https://phoible.org/inventories/view/170 https://wals.info/valuesets/1A-grk https://wals.info/valuesets/2A-grk https://wals.info/valuesets/12A-grk https://wals.info/valuesets/13A-grk https://wals.info/valuesets/20A-grk https://wals.info/valuesets/26A-grk https://wals.info/valuesets/30A-grk https://wals.info/valuesets/37A-grk https://wals.info/valuesets/38A-grk https://wals.info/valuesets/49A-grk https://wals.info/valuesets/51A-grk https://wals.info/valuesets/81A-grk https://wals.info/valuesets/85A-grk https://wals.info/valuesets/86A-grk https://wals.info/valuesets/87A-grk https://wals.info/valuesets/98A-grk https://wals.info/valuesets/65A-grk https://wals.info/valuesets/67A-grk https://en.wikipedia.org/wiki/Modern_Greek",
+    "https://wals.info/languoid/lect/wals_code_hak https://phoible.org/languages/hakk1236 https://phoible.org/inventories/view/18 https://en.wikipedia.org/wiki/Hakka_Chinese",
+    "https://wals.info/languoid/lect/wals_code_haw https://phoible.org/languages/hawa1245 https://phoible.org/inventories/view/43 https://en.wikipedia.org/wiki/Hawaiian_language",
+    "https://wals.info/languoid/lect/wals_code_heb https://wals.info/valuesets/20A-heb https://wals.info/valuesets/26A-heb https://wals.info/valuesets/30A-heb https://wals.info/valuesets/37A-heb https://wals.info/valuesets/38A-heb https://wals.info/valuesets/49A-heb https://wals.info/valuesets/51A-heb https://wals.info/valuesets/81A-heb https://wals.info/valuesets/85A-heb https://wals.info/valuesets/86A-heb https://wals.info/valuesets/87A-heb https://wals.info/valuesets/98A-heb https://wals.info/valuesets/65A-heb https://wals.info/valuesets/67A-heb https://phoible.org/languages/hebr1245 https://phoible.org/inventories/view/135 https://en.wikipedia.org/wiki/Modern_Hebrew",
+    "https://wals.info/languoid/lect/wals_code_hin https://phoible.org/languages/hind1269 https://phoible.org/inventories/view/176 https://en.wikipedia.org/wiki/Hindi",
+    "https://wals.info/languoid/lect/wals_code_hok https://phoible.org/languages/minn1241 https://phoible.org/inventories/view/481 https://en.wikipedia.org/wiki/Hokkien",
+    "https://wals.info/languoid/lect/wals_code_hun https://wals.info/valuesets/1A-hun https://wals.info/valuesets/2A-hun https://wals.info/valuesets/12A-hun https://wals.info/valuesets/13A-hun https://wals.info/valuesets/20A-hun https://wals.info/valuesets/26A-hun https://wals.info/valuesets/30A-hun https://wals.info/valuesets/37A-hun https://wals.info/valuesets/38A-hun https://wals.info/valuesets/49A-hun https://wals.info/valuesets/51A-hun https://wals.info/valuesets/81A-hun https://wals.info/valuesets/85A-hun https://wals.info/valuesets/86A-hun https://wals.info/valuesets/87A-hun https://wals.info/valuesets/98A-hun https://wals.info/valuesets/65A-hun https://wals.info/valuesets/67A-hun https://phoible.org/languages/hung1274 https://phoible.org/inventories/view/183 https://en.wikipedia.org/wiki/Hungarian_language",
+    "https://wals.info/languoid/lect/wals_code_ice https://phoible.org/languages/icel1247 https://phoible.org/inventories/view/158 https://en.wikipedia.org/wiki/Icelandic_language",
+    "https://wals.info/languoid/lect/wals_code_iri https://wals.info/languoid/lect/wals_code_iri.rdf https://phoible.org/languages/iris1253 https://phoible.org/inventories/view/156 https://wals.info/valuesets/26A-iri https://wals.info/valuesets/37A-iri https://wals.info/valuesets/38A-iri https://wals.info/valuesets/49A-iri https://wals.info/valuesets/51A-iri https://wals.info/valuesets/81A-iri https://wals.info/valuesets/85A-iri https://wals.info/valuesets/86A-iri https://wals.info/valuesets/87A-iri https://wals.info/valuesets/98A-iri https://en.wikipedia.org/wiki/Irish_language",
+    "https://wals.info/languoid/lect/wals_code_ita https://wals.info/languoid/lect/wals_code_ita.rdf https://phoible.org/languages/ital1282 https://phoible.org/inventories/view/1145 https://wals.info/valuesets/26A-ita https://wals.info/valuesets/37A-ita https://wals.info/valuesets/38A-ita https://wals.info/valuesets/49A-ita https://wals.info/valuesets/51A-ita https://wals.info/valuesets/81A-ita https://wals.info/valuesets/85A-ita https://wals.info/valuesets/86A-ita https://wals.info/valuesets/87A-ita https://en.wikipedia.org/wiki/Italian_language",
+    "https://wals.info/languoid/lect/wals_code_jpn https://phoible.org/languages/nucl1643 https://phoible.org/inventories/view/197 https://en.wikipedia.org/wiki/Japanese_language",
+    "https://wals.info/languoid/lect/wals_code_kgz https://wals.info/valuesets/1A-kgz https://wals.info/valuesets/2A-kgz https://wals.info/valuesets/12A-kgz https://wals.info/valuesets/13A-kgz https://wals.info/valuesets/26A-kgz https://wals.info/valuesets/30A-kgz https://wals.info/valuesets/38A-kgz https://wals.info/valuesets/51A-kgz https://wals.info/valuesets/85A-kgz https://wals.info/valuesets/87A-kgz https://phoible.org/languages/kirg1245 https://phoible.org/inventories/view/188 https://en.wikipedia.org/wiki/Kyrgyz_language",
+    "https://wals.info/languoid/lect/wals_code_kin https://phoible.org/languages/kiny1244 https://phoible.org/inventories/view/911 https://en.wikipedia.org/wiki/Kinyarwanda",
+    "https://wals.info/languoid/lect/wals_code_lin https://phoible.org/languages/ling1263 https://phoible.org/inventories/view/768 https://en.wikipedia.org/wiki/Lingala",
+    "https://wals.info/languoid/lect/wals_code_mao https://phoible.org/languages/maor1246 https://phoible.org/inventories/view/42 https://en.wikipedia.org/wiki/M\u0101ori_language",
+    "https://wals.info/languoid/lect/wals_code_mhi https://phoible.org/languages/mara1378 https://phoible.org/inventories/view/1766 https://en.wikipedia.org/wiki/Marathi_language",
+    "https://wals.info/languoid/lect/wals_code_mlt https://wals.info/valuesets/30A-mlt https://wals.info/valuesets/65A-mlt https://wals.info/valuesets/67A-mlt https://phoible.org/languages/malt1254 https://phoible.org/inventories/view/134 https://en.wikipedia.org/wiki/Maltese_language",
+    "https://wals.info/languoid/lect/wals_code_mnd https://phoible.org/languages/mand1415 https://phoible.org/inventories/view/16 https://en.wikipedia.org/wiki/Mandarin_Chinese",
+    "https://wals.info/languoid/lect/wals_code_nep https://phoible.org/languages/nepa1254 https://phoible.org/inventories/view/1772 https://en.wikipedia.org/wiki/Nepali_language",
+    "https://wals.info/languoid/lect/wals_code_nor https://phoible.org/languages/norw1258 https://phoible.org/inventories/view/2441 https://en.wikipedia.org/wiki/Norwegian_language",
+    "https://wals.info/languoid/lect/wals_code_ntu https://wals.info/valuesets/1A-ntu https://wals.info/valuesets/2A-ntu https://wals.info/valuesets/12A-ntu https://wals.info/valuesets/13A-ntu https://wals.info/valuesets/20A-ntu https://wals.info/valuesets/26A-ntu https://wals.info/valuesets/30A-ntu https://wals.info/valuesets/49A-ntu https://wals.info/valuesets/51A-ntu https://wals.info/valuesets/81A-ntu https://wals.info/valuesets/85A-ntu https://wals.info/valuesets/86A-ntu https://wals.info/valuesets/87A-ntu https://wals.info/valuesets/98A-ntu https://wals.info/valuesets/65A-ntu https://wals.info/valuesets/67A-ntu https://phoible.org/languages/nene1249 https://phoible.org/inventories/view/185 https://en.wikipedia.org/wiki/Tundra_Nenets",
+    "https://wals.info/languoid/lect/wals_code_pan https://phoible.org/languages/panj1256 https://phoible.org/inventories/view/175 https://en.wikipedia.org/wiki/Punjabi_language",
+    "https://wals.info/languoid/lect/wals_code_pol https://phoible.org/languages/poli1260 https://phoible.org/inventories/view/1046 https://en.wikipedia.org/wiki/Polish_language",
+    "https://wals.info/languoid/lect/wals_code_por https://wals.info/languoid/lect/wals_code_por.rdf https://phoible.org/languages/port1283 https://phoible.org/inventories/view/163 https://wals.info/valuesets/26A-por https://wals.info/valuesets/37A-por https://wals.info/valuesets/38A-por https://wals.info/valuesets/51A-por https://wals.info/valuesets/81A-por https://wals.info/valuesets/85A-por https://wals.info/valuesets/86A-por https://wals.info/valuesets/87A-por https://wals.info/valuesets/65A-por https://wals.info/valuesets/67A-por https://en.wikipedia.org/wiki/Portuguese_language",
+    "https://wals.info/languoid/lect/wals_code_rap https://en.wikipedia.org/wiki/Rapa_Nui_language",
+    "https://wals.info/languoid/lect/wals_code_rom https://wals.info/languoid/lect/wals_code_rom.rdf https://phoible.org/languages/roma1327 https://phoible.org/inventories/view/165 https://wals.info/valuesets/1A-rom https://wals.info/valuesets/2A-rom https://wals.info/valuesets/13A-rom https://wals.info/valuesets/26A-rom https://wals.info/valuesets/37A-rom https://wals.info/valuesets/38A-rom https://wals.info/valuesets/49A-rom https://wals.info/valuesets/51A-rom https://wals.info/valuesets/81A-rom https://wals.info/valuesets/85A-rom https://wals.info/valuesets/86A-rom https://wals.info/valuesets/87A-rom https://wals.info/valuesets/65A-rom https://wals.info/valuesets/67A-rom https://en.wikipedia.org/wiki/Romanian_language",
+    "https://wals.info/languoid/lect/wals_code_rus https://phoible.org/languages/russ1263 https://phoible.org/inventories/view/166 https://en.wikipedia.org/wiki/Russian_language",
+    "https://wals.info/languoid/lect/wals_code_ryu https://en.wikipedia.org/wiki/Okinawan_language",
+    "https://wals.info/languoid/lect/wals_code_sam https://en.wikipedia.org/wiki/Samoan_language",
+    "https://wals.info/languoid/lect/wals_code_scr https://phoible.org/languages/croa1245 https://phoible.org/inventories/view/1139 https://en.wikipedia.org/wiki/Serbo-Croatian",
+    "https://wals.info/languoid/lect/wals_code_shn https://phoible.org/languages/shon1251 https://phoible.org/inventories/view/1008 https://en.wikipedia.org/wiki/Shona_language",
+    "https://wals.info/languoid/lect/wals_code_slo https://phoible.org/languages/slov1268 https://phoible.org/inventories/view/1149 https://en.wikipedia.org/wiki/Slovene_language",
+    "https://wals.info/languoid/lect/wals_code_sno https://wals.info/valuesets/26A-sno https://wals.info/valuesets/37A-sno https://wals.info/valuesets/38A-sno https://wals.info/valuesets/49A-sno https://wals.info/valuesets/51A-sno https://wals.info/valuesets/81A-sno https://wals.info/valuesets/85A-sno https://wals.info/valuesets/86A-sno https://wals.info/valuesets/87A-sno https://phoible.org/languages/nort2671 https://phoible.org/inventories/view/2235 https://en.wikipedia.org/wiki/Northern_Sami",
+    "https://wals.info/languoid/lect/wals_code_spa https://wals.info/languoid/lect/wals_code_spa.rdf https://phoible.org/languages/stan1288 https://phoible.org/inventories/view/164 https://wals.info/valuesets/1A-spa https://wals.info/valuesets/2A-spa https://wals.info/valuesets/12A-spa https://wals.info/valuesets/13A-spa https://wals.info/valuesets/20A-spa https://wals.info/valuesets/26A-spa https://wals.info/valuesets/30A-spa https://wals.info/valuesets/37A-spa https://wals.info/valuesets/38A-spa https://wals.info/valuesets/49A-spa https://wals.info/valuesets/51A-spa https://wals.info/valuesets/81A-spa https://wals.info/valuesets/85A-spa https://wals.info/valuesets/86A-spa https://wals.info/valuesets/87A-spa https://wals.info/valuesets/98A-spa https://wals.info/valuesets/65A-spa https://wals.info/valuesets/67A-spa https://en.wikipedia.org/wiki/Spanish_language",
+    "https://wals.info/languoid/lect/wals_code_swa https://phoible.org/languages/swah1253 https://phoible.org/inventories/view/145 https://en.wikipedia.org/wiki/Swahili",
+    "https://wals.info/languoid/lect/wals_code_swe https://phoible.org/languages/swed1254 https://phoible.org/inventories/view/1150 https://en.wikipedia.org/wiki/Swedish_language",
+    "https://wals.info/languoid/lect/wals_code_tah https://en.wikipedia.org/wiki/Tahitian_language",
+    "https://wals.info/languoid/lect/wals_code_tig https://wals.info/valuesets/37A-tig https://wals.info/valuesets/38A-tig https://wals.info/valuesets/51A-tig https://wals.info/valuesets/81A-tig https://wals.info/valuesets/85A-tig https://wals.info/valuesets/86A-tig https://wals.info/valuesets/87A-tig https://wals.info/valuesets/65A-tig https://wals.info/valuesets/67A-tig https://phoible.org/languages/tigr1271 https://phoible.org/inventories/view/1350 https://en.wikipedia.org/wiki/Tigrinya_language",
+    "https://wals.info/languoid/lect/wals_code_tkm https://wals.info/valuesets/81A-tkm https://wals.info/valuesets/85A-tkm https://wals.info/valuesets/86A-tkm https://wals.info/valuesets/87A-tkm https://phoible.org/languages/turk1304 https://phoible.org/inventories/view/2595 https://en.wikipedia.org/wiki/Turkmen_language",
+    "https://wals.info/languoid/lect/wals_code_tng https://phoible.org/languages/tong1325 https://phoible.org/inventories/view/1086 https://en.wikipedia.org/wiki/Tongan_language",
+    "https://wals.info/languoid/lect/wals_code_tur https://wals.info/valuesets/1A-tur https://wals.info/valuesets/2A-tur https://wals.info/valuesets/12A-tur https://wals.info/valuesets/13A-tur https://wals.info/valuesets/20A-tur https://wals.info/valuesets/26A-tur https://wals.info/valuesets/30A-tur https://wals.info/valuesets/37A-tur https://wals.info/valuesets/38A-tur https://wals.info/valuesets/49A-tur https://wals.info/valuesets/51A-tur https://wals.info/valuesets/81A-tur https://wals.info/valuesets/85A-tur https://wals.info/valuesets/86A-tur https://wals.info/valuesets/87A-tur https://wals.info/valuesets/98A-tur https://wals.info/valuesets/65A-tur https://wals.info/valuesets/67A-tur https://phoible.org/languages/nucl1301 https://phoible.org/inventories/view/186 https://en.wikipedia.org/wiki/Turkish_language",
+    "https://wals.info/languoid/lect/wals_code_udm https://wals.info/valuesets/26A-udm https://wals.info/valuesets/49A-udm https://wals.info/valuesets/51A-udm https://wals.info/valuesets/81A-udm https://wals.info/valuesets/85A-udm https://wals.info/valuesets/86A-udm https://wals.info/valuesets/87A-udm https://wals.info/valuesets/65A-udm https://wals.info/valuesets/67A-udm https://phoible.org/languages/udmu1245 https://phoible.org/inventories/view/2240 https://en.wikipedia.org/wiki/Udmurt_language",
+    "https://wals.info/languoid/lect/wals_code_ukr https://phoible.org/languages/ukra1253 https://phoible.org/inventories/view/1035 https://en.wikipedia.org/wiki/Ukrainian_language",
+    "https://wals.info/languoid/lect/wals_code_uzb https://wals.info/valuesets/26A-uzb https://wals.info/valuesets/30A-uzb https://wals.info/valuesets/51A-uzb https://wals.info/valuesets/81A-uzb https://wals.info/valuesets/86A-uzb https://wals.info/valuesets/87A-uzb https://phoible.org/languages/nort2690 https://phoible.org/inventories/view/603 https://en.wikipedia.org/wiki/Uzbek_language",
+    "https://wals.info/languoid/lect/wals_code_wel https://wals.info/languoid/lect/wals_code_wel.rdf https://phoible.org/languages/wels1247 https://phoible.org/inventories/view/2406 https://wals.info/valuesets/26A-wel https://wals.info/valuesets/37A-wel https://wals.info/valuesets/38A-wel https://wals.info/valuesets/49A-wel https://wals.info/valuesets/51A-wel https://wals.info/valuesets/81A-wel https://wals.info/valuesets/85A-wel https://wals.info/valuesets/86A-wel https://wals.info/valuesets/87A-wel https://en.wikipedia.org/wiki/Welsh_language",
+    "https://wals.info/languoid/lect/wals_code_wuc https://phoible.org/languages/wuch1236 https://phoible.org/inventories/view/17 https://en.wikipedia.org/wiki/Wu_Chinese",
+    "https://wals.info/languoid/lect/wals_code_xho https://phoible.org/languages/xhos1239 https://phoible.org/inventories/view/1319 https://en.wikipedia.org/wiki/Xhosa_language",
+    "https://wals.info/languoid/lect/wals_code_ykt https://wals.info/valuesets/1A-ykt https://wals.info/valuesets/2A-ykt https://wals.info/valuesets/12A-ykt https://wals.info/valuesets/13A-ykt https://wals.info/valuesets/26A-ykt https://wals.info/valuesets/30A-ykt https://wals.info/valuesets/51A-ykt https://wals.info/valuesets/81A-ykt https://wals.info/valuesets/85A-ykt https://wals.info/valuesets/86A-ykt https://wals.info/valuesets/87A-ykt https://phoible.org/languages/yaku1245 https://phoible.org/inventories/view/190 https://en.wikipedia.org/wiki/Yakut_language",
+    "https://wals.info/languoid/lect/wals_code_zul https://phoible.org/languages/zulu1248 https://phoible.org/inventories/view/147 https://en.wikipedia.org/wiki/Zulu_language"
+  ],
+  "missing_source": 0,
+  "styles": {
+    "bantu": 6,
+    "celtic": 5,
+    "germanic": 6,
+    "hellenic": 1,
+    "indoaryan": 6,
+    "japonic": 4,
+    "polynesian": 6,
+    "romance": 6,
+    "semitic": 6,
+    "sinitic": 6,
+    "slavic": 7,
+    "turkic": 6,
+    "uralic": 6
+  },
+  "vocabulary": {
+    "diphthongs": {
+      "False": 57,
+      "True": 9,
+      "None": 5
+    },
+    "historical": {
+      "False": 70,
+      "True": 1
+    },
+    "long_vowels": {
+      "False": 34,
+      "True": 32,
+      "None": 5
+    },
+    "n_consonants": {
+      "None": 5
+    },
+    "n_vowel_qualities": {
+      "None": 5
+    },
+    "script": {
+      "Latin": 41,
+      "Cyrillic": 7,
+      "Han": 6,
+      "Devanagari": 4,
+      "Other": 4,
+      "Kana": 4,
+      "Arabic": 2,
+      "Greek": 1,
+      "None": 1,
+      "Hebrew": 1
+    },
+    "vowel_harmony": {
+      "None": 62,
+      "True": 6,
+      "False": 3
+    },
+    "wals_12A_syllables": {
+      "None": 38,
+      "Complex": 16,
+      "Moderately complex": 13,
+      "Simple": 4
+    },
+    "wals_13A_tone": {
+      "None": 35,
+      "No tones": 27,
+      "Complex tone system": 6,
+      "Simple tone system": 3
+    },
+    "wals_1A_consonants": {
+      "None": 35,
+      "Average": 18,
+      "Moderately large": 9,
+      "Small": 4,
+      "Moderately small": 3,
+      "Large": 2
+    },
+    "wals_20A_fusion": {
+      "None": 52,
+      "Exclusively concatenative": 14,
+      "Isolating/concatenative": 2,
+      "Ablaut/concatenative": 2,
+      "Exclusively isolating": 1
+    },
+    "wals_26A_affixation": {
+      "Strongly suffixing": 38,
+      "None": 15,
+      "Little affixation": 7,
+      "Weakly suffixing": 6,
+      "Strong prefixing": 3,
+      "Weakly prefixing": 1,
+      "Equal prefixing and suffixing": 1
+    },
+    "wals_2A_vowels": {
+      "None": 35,
+      "Average (5-6)": 18,
+      "Large (7-14)": 18
+    },
+    "wals_30A_genders": {
+      "None": 51,
+      "Two": 9,
+      "Three": 7,
+      "Five or more": 4
+    },
+    "wals_37A_definite": {
+      "None": 25,
+      "Definite word distinct from demonstrative": 21,
+      "No definite or indefinite article": 12,
+      "Definite affix": 7,
+      "Demonstrative word used as definite article": 3,
+      "No definite, but indefinite article": 3
+    },
+    "wals_38A_indefinite": {
+      "None": 25,
+      "Indefinite word same as 'one'": 18,
+      "No definite or indefinite article": 12,
+      "Indefinite word distinct from 'one'": 9,
+      "No indefinite, but definite article": 7
+    },
+    "wals_49A_cases": {
+      "None": 35,
+      "No morphological case-marking": 15,
+      "2 cases": 6,
+      "6-7 cases": 5,
+      "10 or more cases": 4,
+      "4 cases": 2,
+      "5 cases": 2,
+      "3 cases": 1,
+      "8-9 cases": 1
+    },
+    "wals_51A_case_position": {
+      "Case suffixes": 29,
+      "No case affixes or adpositional clitics": 18,
+      "None": 13,
+      "Prepositional clitics": 5,
+      "Mixed morphological case": 3,
+      "Case prefixes": 2,
+      "Postpositional clitics": 1
+    },
+    "wals_65A_aspect": {
+      "None": 37,
+      "Grammatical marking": 18,
+      "No grammatical marking": 16
+    },
+    "wals_67A_future": {
+      "None": 37,
+      "No inflectional future": 20,
+      "Inflectional future exists": 14
+    },
+    "wals_81A_order": {
+      "SVO": 33,
+      "SOV": 15,
+      "None": 9,
+      "VSO": 8,
+      "No dominant order": 6
+    },
+    "wals_85A_adposition": {
+      "Prepositions": 40,
+      "Postpositions": 16,
+      "None": 12,
+      "No dominant order": 3
+    },
+    "wals_86A_genitive": {
+      "Noun-Genitive": 30,
+      "Genitive-Noun": 20,
+      "None": 13,
+      "No dominant order": 8
+    },
+    "wals_87A_adjective": {
+      "Adjective-Noun": 35,
+      "Noun-Adjective": 26,
+      "None": 10
+    },
+    "wals_98A_alignment": {
+      "None": 50,
+      "Nominative - accusative (standard)": 11,
+      "Neutral": 8,
+      "Tripartite": 2
+    }
+  },
+  "seen_once": [
+    "historical=True",
+    "script=Greek",
+    "script=Hebrew",
+    "script=None",
+    "wals_20A_fusion=Exclusively isolating",
+    "wals_26A_affixation=Equal prefixing and suffixing",
+    "wals_26A_affixation=Weakly prefixing",
+    "wals_49A_cases=3 cases",
+    "wals_49A_cases=8-9 cases",
+    "wals_51A_case_position=Postpositional clitics"
+  ],
+  "style_only_values": {
+    "wals_13A_tone=Complex tone system": "sinitic",
+    "script=Devanagari": "indoaryan",
+    "script=Kana": "japonic",
+    "script=Han": "sinitic",
+    "wals_49A_cases=10 or more cases": "uralic",
+    "wals_30A_genders=Five or more": "bantu",
+    "wals_26A_affixation=Strong prefixing": "bantu"
+  },
+  "numeric_ranges": {
+    "n_consonants": {
+      "all": {
+        "n": 66,
+        "min": 9,
+        "p10": 17.0,
+        "median": 24.0,
+        "p90": 37.0,
+        "max": 75
+      },
+      "bantu": {
+        "n": 6,
+        "min": 15,
+        "p10": 23.0,
+        "median": 36.0,
+        "p90": 57.0,
+        "max": 75
+      },
+      "celtic": {
+        "n": 4,
+        "min": 25,
+        "p10": 26.2,
+        "median": 31.0,
+        "p90": 40.7,
+        "max": 44
+      },
+      "germanic": {
+        "n": 6,
+        "min": 18,
+        "p10": 20.5,
+        "median": 23.5,
+        "p90": 25.5,
+        "max": 27
+      },
+      "hellenic": {
+        "n": 1,
+        "min": 21,
+        "p10": 21.0,
+        "median": 21.0,
+        "p90": 21.0,
+        "max": 21
+      },
+      "indoaryan": {
+        "n": 6,
+        "min": 31,
+        "p10": 33.0,
+        "median": 36.5,
+        "p90": 41.5,
+        "max": 42
+      },
+      "japonic": {
+        "n": 3,
+        "min": 14,
+        "p10": 15.2,
+        "median": 20.0,
+        "p90": 20.8,
+        "max": 21
+      },
+      "polynesian": {
+        "n": 3,
+        "min": 9,
+        "p10": 9.2,
+        "median": 10.0,
+        "p90": 11.6,
+        "max": 12
+      },
+      "romance": {
+        "n": 6,
+        "min": 20,
+        "p10": 21.0,
+        "median": 23.0,
+        "p90": 23.0,
+        "max": 23
+      },
+      "semitic": {
+        "n": 6,
+        "min": 23,
+        "p10": 23.5,
+        "median": 30.5,
+        "p90": 32.5,
+        "max": 33
+      },
+      "sinitic": {
+        "n": 6,
+        "min": 14,
+        "p10": 16.5,
+        "median": 21.5,
+        "p90": 28.0,
+        "max": 29
+      },
+      "slavic": {
+        "n": 7,
+        "min": 21,
+        "p10": 22.8,
+        "median": 25.0,
+        "p90": 34.6,
+        "max": 37
+      },
+      "turkic": {
+        "n": 6,
+        "min": 20,
+        "p10": 20.5,
+        "median": 23.0,
+        "p90": 24.5,
+        "max": 25
+      },
+      "uralic": {
+        "n": 6,
+        "min": 17,
+        "p10": 17.0,
+        "median": 26.0,
+        "p90": 30.5,
+        "max": 32
+      }
+    },
+    "n_vowel_qualities": {
+      "all": {
+        "n": 66,
+        "min": 3,
+        "p10": 5.0,
+        "median": 7.0,
+        "p90": 11.0,
+        "max": 16
+      },
+      "bantu": {
+        "n": 6,
+        "min": 5,
+        "p10": 5.0,
+        "median": 5.0,
+        "p90": 7.0,
+        "max": 7
+      },
+      "celtic": {
+        "n": 4,
+        "min": 10,
+        "p10": 10.3,
+        "median": 11.0,
+        "p90": 11.0,
+        "max": 11
+      },
+      "germanic": {
+        "n": 6,
+        "min": 8,
+        "p10": 9.5,
+        "median": 12.0,
+        "p90": 15.5,
+        "max": 16
+      },
+      "hellenic": {
+        "n": 1,
+        "min": 5,
+        "p10": 5.0,
+        "median": 5.0,
+        "p90": 5.0,
+        "max": 5
+      },
+      "indoaryan": {
+        "n": 6,
+        "min": 5,
+        "p10": 6.0,
+        "median": 8.0,
+        "p90": 10.0,
+        "max": 10
+      },
+      "japonic": {
+        "n": 3,
+        "min": 5,
+        "p10": 5.0,
+        "median": 5.0,
+        "p90": 5.0,
+        "max": 5
+      },
+      "polynesian": {
+        "n": 3,
+        "min": 5,
+        "p10": 5.0,
+        "median": 5.0,
+        "p90": 5.8,
+        "max": 6
+      },
+      "romance": {
+        "n": 6,
+        "min": 5,
+        "p10": 6.0,
+        "median": 8.0,
+        "p90": 10.5,
+        "max": 12
+      },
+      "semitic": {
+        "n": 6,
+        "min": 3,
+        "p10": 4.0,
+        "median": 6.0,
+        "p90": 8.0,
+        "max": 9
+      },
+      "sinitic": {
+        "n": 6,
+        "min": 5,
+        "p10": 5.5,
+        "median": 6.5,
+        "p90": 7.0,
+        "max": 7
+      },
+      "slavic": {
+        "n": 7,
+        "min": 5,
+        "p10": 5.0,
+        "median": 6.0,
+        "p90": 6.800000000000001,
+        "max": 8
+      },
+      "turkic": {
+        "n": 6,
+        "min": 6,
+        "p10": 7.0,
+        "median": 8.0,
+        "p90": 9.0,
+        "max": 9
+      },
+      "uralic": {
+        "n": 6,
+        "min": 5,
+        "p10": 5.0,
+        "median": 8.0,
+        "p90": 9.5,
+        "max": 10
+      }
+    }
+  },
+  "correlations": [
+    {
+      "a": "n_consonants",
+      "b": "n_vowel_qualities",
+      "spearman": 0.038,
+      "n": 66,
+      "critical": 0.24,
+      "significant": false
+    }
+  ],
+  "requires_candidates": [
+    {
+      "if": "wals_98A_alignment=None",
+      "then": "wals_20A_fusion=None",
+      "support": 50,
+      "confidence": 1.0,
+      "confidence_lower95": 0.929,
+      "lift": 1.37,
+      "strong": true
+    },
+    {
+      "if": "script=Latin",
+      "then": "historical=False",
+      "support": 41,
+      "confidence": 1.0,
+      "confidence_lower95": 0.914,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_85A_adposition=Prepositions",
+      "then": "historical=False",
+      "support": 40,
+      "confidence": 1.0,
+      "confidence_lower95": 0.912,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_85A_adposition=Prepositions",
+      "then": "vowel_harmony=None",
+      "support": 40,
+      "confidence": 1.0,
+      "confidence_lower95": 0.912,
+      "lift": 1.15,
+      "strong": true
+    },
+    {
+      "if": "wals_26A_affixation=Strongly suffixing",
+      "then": "historical=False",
+      "support": 38,
+      "confidence": 1.0,
+      "confidence_lower95": 0.908,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_65A_aspect=None",
+      "then": "wals_20A_fusion=None",
+      "support": 37,
+      "confidence": 1.0,
+      "confidence_lower95": 0.906,
+      "lift": 1.37,
+      "strong": true
+    },
+    {
+      "if": "wals_67A_future=None",
+      "then": "wals_20A_fusion=None",
+      "support": 37,
+      "confidence": 1.0,
+      "confidence_lower95": 0.906,
+      "lift": 1.37,
+      "strong": true
+    },
+    {
+      "if": "wals_65A_aspect=None",
+      "then": "wals_67A_future=None",
+      "support": 37,
+      "confidence": 1.0,
+      "confidence_lower95": 0.906,
+      "lift": 1.92,
+      "strong": true
+    },
+    {
+      "if": "wals_67A_future=None",
+      "then": "wals_65A_aspect=None",
+      "support": 37,
+      "confidence": 1.0,
+      "confidence_lower95": 0.906,
+      "lift": 1.92,
+      "strong": true
+    },
+    {
+      "if": "wals_87A_adjective=Adjective-Noun",
+      "then": "historical=False",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_13A_tone=None",
+      "then": "wals_12A_syllables=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 1.87,
+      "strong": true
+    },
+    {
+      "if": "wals_1A_consonants=None",
+      "then": "wals_12A_syllables=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 1.87,
+      "strong": true
+    },
+    {
+      "if": "wals_2A_vowels=None",
+      "then": "wals_12A_syllables=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 1.87,
+      "strong": true
+    },
+    {
+      "if": "wals_13A_tone=None",
+      "then": "wals_1A_consonants=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 2.03,
+      "strong": true
+    },
+    {
+      "if": "wals_1A_consonants=None",
+      "then": "wals_13A_tone=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 2.03,
+      "strong": true
+    },
+    {
+      "if": "wals_13A_tone=None",
+      "then": "wals_2A_vowels=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 2.03,
+      "strong": true
+    },
+    {
+      "if": "wals_2A_vowels=None",
+      "then": "wals_13A_tone=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 2.03,
+      "strong": true
+    },
+    {
+      "if": "wals_1A_consonants=None",
+      "then": "wals_2A_vowels=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 2.03,
+      "strong": true
+    },
+    {
+      "if": "wals_2A_vowels=None",
+      "then": "wals_1A_consonants=None",
+      "support": 35,
+      "confidence": 1.0,
+      "confidence_lower95": 0.901,
+      "lift": 2.03,
+      "strong": true
+    },
+    {
+      "if": "long_vowels=False",
+      "then": "historical=False",
+      "support": 34,
+      "confidence": 1.0,
+      "confidence_lower95": 0.898,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_81A_order=SVO",
+      "then": "historical=False",
+      "support": 33,
+      "confidence": 1.0,
+      "confidence_lower95": 0.896,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_86A_genitive=Noun-Genitive",
+      "then": "historical=False",
+      "support": 30,
+      "confidence": 1.0,
+      "confidence_lower95": 0.886,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_86A_genitive=Noun-Genitive",
+      "then": "vowel_harmony=None",
+      "support": 30,
+      "confidence": 1.0,
+      "confidence_lower95": 0.886,
+      "lift": 1.15,
+      "strong": true
+    },
+    {
+      "if": "wals_51A_case_position=Case suffixes",
+      "then": "historical=False",
+      "support": 29,
+      "confidence": 1.0,
+      "confidence_lower95": 0.883,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_13A_tone=No tones",
+      "then": "historical=False",
+      "support": 27,
+      "confidence": 1.0,
+      "confidence_lower95": 0.875,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_87A_adjective=Noun-Adjective",
+      "then": "historical=False",
+      "support": 26,
+      "confidence": 1.0,
+      "confidence_lower95": 0.871,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_87A_adjective=Noun-Adjective",
+      "then": "vowel_harmony=None",
+      "support": 26,
+      "confidence": 1.0,
+      "confidence_lower95": 0.871,
+      "lift": 1.15,
+      "strong": true
+    },
+    {
+      "if": "wals_37A_definite=Definite word distinct from demonstrative",
+      "then": "historical=False",
+      "support": 21,
+      "confidence": 1.0,
+      "confidence_lower95": 0.845,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_67A_future=No inflectional future",
+      "then": "historical=False",
+      "support": 20,
+      "confidence": 1.0,
+      "confidence_lower95": 0.839,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_86A_genitive=Genitive-Noun",
+      "then": "historical=False",
+      "support": 20,
+      "confidence": 1.0,
+      "confidence_lower95": 0.839,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_86A_genitive=Genitive-Noun",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 20,
+      "confidence": 1.0,
+      "confidence_lower95": 0.839,
+      "lift": 2.03,
+      "strong": true
+    },
+    {
+      "if": "wals_1A_consonants=Average",
+      "then": "historical=False",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_2A_vowels=Average (5-6)",
+      "then": "historical=False",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_2A_vowels=Large (7-14)",
+      "then": "historical=False",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_38A_indefinite=Indefinite word same as 'one'",
+      "then": "historical=False",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "then": "historical=False",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_65A_aspect=Grammatical marking",
+      "then": "historical=False",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_2A_vowels=Average (5-6)",
+      "then": "vowel_harmony=None",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.15,
+      "strong": true
+    },
+    {
+      "if": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "then": "vowel_harmony=None",
+      "support": 18,
+      "confidence": 1.0,
+      "confidence_lower95": 0.824,
+      "lift": 1.15,
+      "strong": true
+    },
+    {
+      "if": "wals_12A_syllables=Complex",
+      "then": "historical=False",
+      "support": 16,
+      "confidence": 1.0,
+      "confidence_lower95": 0.806,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_65A_aspect=No grammatical marking",
+      "then": "historical=False",
+      "support": 16,
+      "confidence": 1.0,
+      "confidence_lower95": 0.806,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_85A_adposition=Postpositions",
+      "then": "historical=False",
+      "support": 16,
+      "confidence": 1.0,
+      "confidence_lower95": 0.806,
+      "lift": 1.01,
+      "strong": true
+    },
+    {
+      "if": "wals_49A_cases=No morphological case-marking",
+      "then": "historical=False",
+      "support": 15,
+      "confidence": 1.0,
+      "confidence_lower95": 0.796,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=SOV",
+      "then": "historical=False",
+      "support": 15,
+      "confidence": 1.0,
+      "confidence_lower95": 0.796,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=No morphological case-marking",
+      "then": "vowel_harmony=None",
+      "support": 15,
+      "confidence": 1.0,
+      "confidence_lower95": 0.796,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=None",
+      "then": "wals_20A_fusion=None",
+      "support": 15,
+      "confidence": 1.0,
+      "confidence_lower95": 0.796,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=None",
+      "then": "wals_98A_alignment=None",
+      "support": 15,
+      "confidence": 1.0,
+      "confidence_lower95": 0.796,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_20A_fusion=Exclusively concatenative",
+      "then": "historical=False",
+      "support": 14,
+      "confidence": 1.0,
+      "confidence_lower95": 0.785,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_67A_future=Inflectional future exists",
+      "then": "historical=False",
+      "support": 14,
+      "confidence": 1.0,
+      "confidence_lower95": 0.785,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Moderately complex",
+      "then": "historical=False",
+      "support": 13,
+      "confidence": 1.0,
+      "confidence_lower95": 0.772,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=None",
+      "then": "wals_20A_fusion=None",
+      "support": 13,
+      "confidence": 1.0,
+      "confidence_lower95": 0.772,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "wals_86A_genitive=None",
+      "then": "wals_20A_fusion=None",
+      "support": 13,
+      "confidence": 1.0,
+      "confidence_lower95": 0.772,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=None",
+      "then": "wals_37A_definite=None",
+      "support": 13,
+      "confidence": 1.0,
+      "confidence_lower95": 0.772,
+      "lift": 2.84,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=None",
+      "then": "wals_98A_alignment=None",
+      "support": 13,
+      "confidence": 1.0,
+      "confidence_lower95": 0.772,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_86A_genitive=None",
+      "then": "wals_98A_alignment=None",
+      "support": 13,
+      "confidence": 1.0,
+      "confidence_lower95": 0.772,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=None",
+      "then": "diphthongs=False",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite or indefinite article",
+      "then": "historical=False",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_38A_indefinite=No definite or indefinite article",
+      "then": "historical=False",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=None",
+      "then": "wals_20A_fusion=None",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite or indefinite article",
+      "then": "wals_38A_indefinite=No definite or indefinite article",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 5.92,
+      "strong": false
+    },
+    {
+      "if": "wals_38A_indefinite=No definite or indefinite article",
+      "then": "wals_37A_definite=No definite or indefinite article",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 5.92,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=None",
+      "then": "wals_37A_definite=None",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 2.84,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=None",
+      "then": "wals_38A_indefinite=None",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 2.84,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=None",
+      "then": "wals_49A_cases=None",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=None",
+      "then": "wals_98A_alignment=None",
+      "support": 12,
+      "confidence": 1.0,
+      "confidence_lower95": 0.757,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_98A_alignment=Nominative - accusative (standard)",
+      "then": "diphthongs=False",
+      "support": 11,
+      "confidence": 1.0,
+      "confidence_lower95": 0.741,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_98A_alignment=Nominative - accusative (standard)",
+      "then": "historical=False",
+      "support": 11,
+      "confidence": 1.0,
+      "confidence_lower95": 0.741,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "vowel_harmony=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "wals_20A_fusion=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "wals_26A_affixation=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 4.73,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "wals_37A_definite=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 2.84,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "wals_38A_indefinite=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 2.84,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "wals_49A_cases=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "wals_86A_genitive=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 5.46,
+      "strong": false
+    },
+    {
+      "if": "wals_87A_adjective=None",
+      "then": "wals_98A_alignment=None",
+      "support": 10,
+      "confidence": 1.0,
+      "confidence_lower95": 0.722,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Moderately large",
+      "then": "diphthongs=False",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=True",
+      "then": "historical=False",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=True",
+      "then": "vowel_harmony=None",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Moderately large",
+      "then": "historical=False",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Two",
+      "then": "historical=False",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_38A_indefinite=Indefinite word distinct from 'one'",
+      "then": "historical=False",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Two",
+      "then": "vowel_harmony=None",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=None",
+      "then": "wals_20A_fusion=None",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=None",
+      "then": "wals_37A_definite=None",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 2.84,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=None",
+      "then": "wals_49A_cases=None",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=None",
+      "then": "wals_86A_genitive=None",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 5.46,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=None",
+      "then": "wals_98A_alignment=None",
+      "support": 9,
+      "confidence": 1.0,
+      "confidence_lower95": 0.701,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=VSO",
+      "then": "historical=False",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_86A_genitive=No dominant order",
+      "then": "historical=False",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_98A_alignment=Neutral",
+      "then": "historical=False",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=VSO",
+      "then": "vowel_harmony=None",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_86A_genitive=No dominant order",
+      "then": "vowel_harmony=None",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_98A_alignment=Neutral",
+      "then": "vowel_harmony=None",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=VSO",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=VSO",
+      "then": "wals_87A_adjective=Noun-Adjective",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 2.73,
+      "strong": false
+    },
+    {
+      "if": "wals_86A_genitive=No dominant order",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 8,
+      "confidence": 1.0,
+      "confidence_lower95": 0.676,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "script=Cyrillic",
+      "then": "diphthongs=False",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Three",
+      "then": "diphthongs=False",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "script=Cyrillic",
+      "then": "historical=False",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Little affixation",
+      "then": "historical=False",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Three",
+      "then": "historical=False",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Definite affix",
+      "then": "historical=False",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_38A_indefinite=No indefinite, but definite article",
+      "then": "historical=False",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "script=Cyrillic",
+      "then": "wals_26A_affixation=Strongly suffixing",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.87,
+      "strong": false
+    },
+    {
+      "if": "script=Cyrillic",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Little affixation",
+      "then": "vowel_harmony=None",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Three",
+      "then": "vowel_harmony=None",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Definite affix",
+      "then": "vowel_harmony=None",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_38A_indefinite=No indefinite, but definite article",
+      "then": "vowel_harmony=None",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Little affixation",
+      "then": "wals_30A_genders=None",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Little affixation",
+      "then": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 3.94,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Three",
+      "then": "wals_26A_affixation=Strongly suffixing",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.87,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Three",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Definite affix",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "wals_38A_indefinite=No indefinite, but definite article",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "wals_38A_indefinite=No indefinite, but definite article",
+      "then": "wals_86A_genitive=Noun-Genitive",
+      "support": 7,
+      "confidence": 1.0,
+      "confidence_lower95": 0.646,
+      "lift": 2.37,
+      "strong": false
+    },
+    {
+      "if": "script=Han",
+      "then": "diphthongs=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=True",
+      "then": "diphthongs=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Complex tone system",
+      "then": "diphthongs=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=2 cases",
+      "then": "diphthongs=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "script=Han",
+      "then": "historical=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=True",
+      "then": "historical=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Complex tone system",
+      "then": "historical=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Weakly suffixing",
+      "then": "historical=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=2 cases",
+      "then": "historical=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=No dominant order",
+      "then": "historical=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "script=Han",
+      "then": "long_vowels=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Complex tone system",
+      "then": "long_vowels=False",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=True",
+      "then": "long_vowels=True",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 2.22,
+      "strong": false
+    },
+    {
+      "if": "script=Han",
+      "then": "vowel_harmony=None",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "script=Han",
+      "then": "wals_13A_tone=Complex tone system",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 11.83,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Complex tone system",
+      "then": "script=Han",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 11.83,
+      "strong": false
+    },
+    {
+      "if": "script=Han",
+      "then": "wals_30A_genders=None",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Complex tone system",
+      "then": "vowel_harmony=None",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Weakly suffixing",
+      "then": "vowel_harmony=None",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=2 cases",
+      "then": "vowel_harmony=None",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=True",
+      "then": "wals_30A_genders=None",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=True",
+      "then": "wals_85A_adposition=Postpositions",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 4.44,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=True",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Complex tone system",
+      "then": "wals_30A_genders=None",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_81A_order=No dominant order",
+      "then": "wals_37A_definite=Definite word distinct from demonstrative",
+      "support": 6,
+      "confidence": 1.0,
+      "confidence_lower95": 0.61,
+      "lift": 3.38,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Prepositional clitics",
+      "then": "diphthongs=False",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=None",
+      "then": "historical=False",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=None",
+      "then": "long_vowels=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "long_vowels=None",
+      "then": "diphthongs=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=None",
+      "then": "n_consonants=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "n_consonants=None",
+      "then": "diphthongs=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=None",
+      "then": "n_vowel_qualities=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "n_vowel_qualities=None",
+      "then": "diphthongs=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=None",
+      "then": "vowel_harmony=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "diphthongs=None",
+      "then": "wals_30A_genders=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "long_vowels=None",
+      "then": "historical=False",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "n_consonants=None",
+      "then": "historical=False",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "n_vowel_qualities=None",
+      "then": "historical=False",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=6-7 cases",
+      "then": "historical=False",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Prepositional clitics",
+      "then": "historical=False",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "long_vowels=None",
+      "then": "n_consonants=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "n_consonants=None",
+      "then": "long_vowels=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "long_vowels=None",
+      "then": "n_vowel_qualities=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "n_vowel_qualities=None",
+      "then": "long_vowels=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "long_vowels=None",
+      "then": "vowel_harmony=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "long_vowels=None",
+      "then": "wals_30A_genders=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "n_consonants=None",
+      "then": "n_vowel_qualities=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "n_vowel_qualities=None",
+      "then": "n_consonants=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 14.2,
+      "strong": false
+    },
+    {
+      "if": "n_consonants=None",
+      "then": "vowel_harmony=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "n_consonants=None",
+      "then": "wals_30A_genders=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "n_vowel_qualities=None",
+      "then": "vowel_harmony=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "n_vowel_qualities=None",
+      "then": "wals_30A_genders=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Prepositional clitics",
+      "then": "vowel_harmony=None",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=6-7 cases",
+      "then": "wals_26A_affixation=Strongly suffixing",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.87,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=6-7 cases",
+      "then": "wals_51A_case_position=Case suffixes",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 2.45,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=6-7 cases",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Prepositional clitics",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 5,
+      "confidence": 1.0,
+      "confidence_lower95": 0.566,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "script=Other",
+      "then": "diphthongs=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "diphthongs=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "diphthongs=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "script=Kana",
+      "then": "historical=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "script=Other",
+      "then": "historical=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "historical=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Small",
+      "then": "historical=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "historical=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "historical=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "script=Other",
+      "then": "long_vowels=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "long_vowels=False",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "script=Devanagari",
+      "then": "long_vowels=True",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.22,
+      "strong": false
+    },
+    {
+      "if": "script=Devanagari",
+      "then": "vowel_harmony=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "script=Kana",
+      "then": "vowel_harmony=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "script=Kana",
+      "then": "wals_30A_genders=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "script=Latin",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.73,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "script=Latin",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.73,
+      "strong": false
+    },
+    {
+      "if": "script=Other",
+      "then": "vowel_harmony=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "script=Other",
+      "then": "wals_20A_fusion=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "script=Other",
+      "then": "wals_81A_order=SOV",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 4.73,
+      "strong": false
+    },
+    {
+      "if": "script=Other",
+      "then": "wals_98A_alignment=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "vowel_harmony=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Small",
+      "then": "vowel_harmony=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "vowel_harmony=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "wals_13A_tone=No tones",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.63,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "wals_2A_vowels=Average (5-6)",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 3.94,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "wals_86A_genitive=Noun-Genitive",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.37,
+      "strong": false
+    },
+    {
+      "if": "wals_12A_syllables=Simple",
+      "then": "wals_87A_adjective=Noun-Adjective",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.73,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Small",
+      "then": "wals_30A_genders=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "wals_26A_affixation=Strongly suffixing",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.87,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "wals_81A_order=SVO",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.15,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "wals_86A_genitive=Noun-Genitive",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.37,
+      "strong": false
+    },
+    {
+      "if": "wals_30A_genders=Five or more",
+      "then": "wals_87A_adjective=Noun-Adjective",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.73,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "wals_30A_genders=None",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "wals_51A_case_position=Case suffixes",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.45,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "wals_85A_adposition=Postpositions",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 4.44,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "wals_86A_genitive=Genitive-Noun",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 3.55,
+      "strong": false
+    },
+    {
+      "if": "wals_49A_cases=10 or more cases",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 4,
+      "confidence": 1.0,
+      "confidence_lower95": 0.51,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "diphthongs=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Simple tone system",
+      "then": "diphthongs=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Moderately small",
+      "then": "diphthongs=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "diphthongs=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Demonstrative word used as definite article",
+      "then": "diphthongs=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite, but indefinite article",
+      "then": "diphthongs=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "diphthongs=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.25,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Simple tone system",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Moderately small",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Demonstrative word used as definite article",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite, but indefinite article",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Mixed morphological case",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "historical=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.01,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "long_vowels=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "long_vowels=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Demonstrative word used as definite article",
+      "then": "long_vowels=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "long_vowels=False",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.09,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "script=Latin",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.73,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Mixed morphological case",
+      "then": "script=Latin",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.73,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_12A_syllables=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.87,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_13A_tone=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_1A_consonants=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_20A_fusion=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.37,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_26A_affixation=Strongly suffixing",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.87,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_2A_vowels=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_30A_genders=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_51A_case_position=Case suffixes",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.45,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_86A_genitive=Genitive-Noun",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 3.55,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "vowel_harmony=False",
+      "then": "wals_98A_alignment=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.42,
+      "strong": false
+    },
+    {
+      "if": "wals_13A_tone=Simple tone system",
+      "then": "vowel_harmony=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "vowel_harmony=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Demonstrative word used as definite article",
+      "then": "vowel_harmony=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Mixed morphological case",
+      "then": "vowel_harmony=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "vowel_harmony=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.15,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Moderately small",
+      "then": "wals_12A_syllables=Moderately complex",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 5.46,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite, but indefinite article",
+      "then": "wals_12A_syllables=Moderately complex",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 5.46,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "wals_12A_syllables=Moderately complex",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 5.46,
+      "strong": false
+    },
+    {
+      "if": "wals_1A_consonants=Moderately small",
+      "then": "wals_30A_genders=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "wals_81A_order=SVO",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.15,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "wals_86A_genitive=Noun-Genitive",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.37,
+      "strong": false
+    },
+    {
+      "if": "wals_26A_affixation=Strong prefixing",
+      "then": "wals_87A_adjective=Noun-Adjective",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.73,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite, but indefinite article",
+      "then": "wals_30A_genders=None",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.39,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=Demonstrative word used as definite article",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite, but indefinite article",
+      "then": "wals_86A_genitive=Genitive-Noun",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 3.55,
+      "strong": false
+    },
+    {
+      "if": "wals_37A_definite=No definite, but indefinite article",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.03,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Mixed morphological case",
+      "then": "wals_85A_adposition=Prepositions",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 1.77,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Mixed morphological case",
+      "then": "wals_86A_genitive=Noun-Genitive",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.37,
+      "strong": false
+    },
+    {
+      "if": "wals_51A_case_position=Mixed morphological case",
+      "then": "wals_87A_adjective=Noun-Adjective",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.73,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "wals_67A_future=No inflectional future",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 3.55,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "wals_86A_genitive=Genitive-Noun",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 3.55,
+      "strong": false
+    },
+    {
+      "if": "wals_85A_adposition=No dominant order",
+      "then": "wals_87A_adjective=Adjective-Noun",
+      "support": 3,
+      "confidence": 1.0,
+      "confidence_lower95": 0.438,
+      "lift": 2.03,
+      "strong": false
+    }
+  ],
+  "excludes_candidates": [
+    {
+      "a": "wals_13A_tone=No tones",
+      "b": "wals_1A_consonants=None",
+      "count_a": 27,
+      "count_b": 35,
+      "expected_together": 13.3
+    },
+    {
+      "a": "wals_13A_tone=No tones",
+      "b": "wals_2A_vowels=None",
+      "count_a": 27,
+      "count_b": 35,
+      "expected_together": 13.3
+    },
+    {
+      "a": "wals_65A_aspect=None",
+      "b": "wals_67A_future=No inflectional future",
+      "count_a": 37,
+      "count_b": 20,
+      "expected_together": 10.4
+    },
+    {
+      "a": "wals_20A_fusion=Exclusively concatenative",
+      "b": "wals_98A_alignment=None",
+      "count_a": 14,
+      "count_b": 50,
+      "expected_together": 9.9
+    },
+    {
+      "a": "wals_65A_aspect=Grammatical marking",
+      "b": "wals_67A_future=None",
+      "count_a": 18,
+      "count_b": 37,
+      "expected_together": 9.4
+    },
+    {
+      "a": "wals_13A_tone=None",
+      "b": "wals_1A_consonants=Average",
+      "count_a": 35,
+      "count_b": 18,
+      "expected_together": 8.9
+    },
+    {
+      "a": "wals_13A_tone=None",
+      "b": "wals_2A_vowels=Average (5-6)",
+      "count_a": 35,
+      "count_b": 18,
+      "expected_together": 8.9
+    },
+    {
+      "a": "wals_13A_tone=None",
+      "b": "wals_2A_vowels=Large (7-14)",
+      "count_a": 35,
+      "count_b": 18,
+      "expected_together": 8.9
+    },
+    {
+      "a": "wals_1A_consonants=Average",
+      "b": "wals_2A_vowels=None",
+      "count_a": 18,
+      "count_b": 35,
+      "expected_together": 8.9
+    },
+    {
+      "a": "wals_1A_consonants=None",
+      "b": "wals_2A_vowels=Average (5-6)",
+      "count_a": 35,
+      "count_b": 18,
+      "expected_together": 8.9
+    },
+    {
+      "a": "wals_1A_consonants=None",
+      "b": "wals_2A_vowels=Large (7-14)",
+      "count_a": 35,
+      "count_b": 18,
+      "expected_together": 8.9
+    },
+    {
+      "a": "wals_65A_aspect=No grammatical marking",
+      "b": "wals_67A_future=None",
+      "count_a": 16,
+      "count_b": 37,
+      "expected_together": 8.3
+    },
+    {
+      "a": "wals_20A_fusion=None",
+      "b": "wals_98A_alignment=Nominative - accusative (standard)",
+      "count_a": 52,
+      "count_b": 11,
+      "expected_together": 8.1
+    },
+    {
+      "a": "wals_12A_syllables=Complex",
+      "b": "wals_13A_tone=None",
+      "count_a": 16,
+      "count_b": 35,
+      "expected_together": 7.9
+    },
+    {
+      "a": "wals_12A_syllables=Complex",
+      "b": "wals_1A_consonants=None",
+      "count_a": 16,
+      "count_b": 35,
+      "expected_together": 7.9
+    },
+    {
+      "a": "wals_12A_syllables=Complex",
+      "b": "wals_2A_vowels=None",
+      "count_a": 16,
+      "count_b": 35,
+      "expected_together": 7.9
+    },
+    {
+      "a": "wals_12A_syllables=None",
+      "b": "wals_20A_fusion=Exclusively concatenative",
+      "count_a": 38,
+      "count_b": 14,
+      "expected_together": 7.5
+    },
+    {
+      "a": "wals_20A_fusion=Exclusively concatenative",
+      "b": "wals_65A_aspect=None",
+      "count_a": 14,
+      "count_b": 37,
+      "expected_together": 7.3
+    },
+    {
+      "a": "wals_20A_fusion=Exclusively concatenative",
+      "b": "wals_67A_future=None",
+      "count_a": 14,
+      "count_b": 37,
+      "expected_together": 7.3
+    },
+    {
+      "a": "wals_65A_aspect=None",
+      "b": "wals_67A_future=Inflectional future exists",
+      "count_a": 37,
+      "count_b": 14,
+      "expected_together": 7.3
+    },
+    {
+      "a": "wals_86A_genitive=Genitive-Noun",
+      "b": "wals_87A_adjective=Noun-Adjective",
+      "count_a": 20,
+      "count_b": 26,
+      "expected_together": 7.3
+    },
+    {
+      "a": "wals_26A_affixation=Strongly suffixing",
+      "b": "wals_51A_case_position=None",
+      "count_a": 38,
+      "count_b": 13,
+      "expected_together": 7.0
+    },
+    {
+      "a": "wals_13A_tone=None",
+      "b": "wals_20A_fusion=Exclusively concatenative",
+      "count_a": 35,
+      "count_b": 14,
+      "expected_together": 6.9
+    },
+    {
+      "a": "wals_1A_consonants=None",
+      "b": "wals_20A_fusion=Exclusively concatenative",
+      "count_a": 35,
+      "count_b": 14,
+      "expected_together": 6.9
+    },
+    {
+      "a": "wals_20A_fusion=Exclusively concatenative",
+      "b": "wals_2A_vowels=None",
+      "count_a": 14,
+      "count_b": 35,
+      "expected_together": 6.9
+    },
+    {
+      "a": "wals_85A_adposition=Postpositions",
+      "b": "wals_86A_genitive=Noun-Genitive",
+      "count_a": 16,
+      "count_b": 30,
+      "expected_together": 6.8
+    },
+    {
+      "a": "wals_12A_syllables=Moderately complex",
+      "b": "wals_13A_tone=None",
+      "count_a": 13,
+      "count_b": 35,
+      "expected_together": 6.4
+    },
+    {
+      "a": "wals_12A_syllables=Moderately complex",
+      "b": "wals_1A_consonants=None",
+      "count_a": 13,
+      "count_b": 35,
+      "expected_together": 6.4
+    },
+    {
+      "a": "wals_12A_syllables=Moderately complex",
+      "b": "wals_2A_vowels=None",
+      "count_a": 13,
+      "count_b": 35,
+      "expected_together": 6.4
+    },
+    {
+      "a": "wals_81A_order=SOV",
+      "b": "wals_86A_genitive=Noun-Genitive",
+      "count_a": 15,
+      "count_b": 30,
+      "expected_together": 6.3
+    },
+    {
+      "a": "wals_49A_cases=No morphological case-marking",
+      "b": "wals_51A_case_position=Case suffixes",
+      "count_a": 15,
+      "count_b": 29,
+      "expected_together": 6.1
+    },
+    {
+      "a": "wals_85A_adposition=Postpositions",
+      "b": "wals_87A_adjective=Noun-Adjective",
+      "count_a": 16,
+      "count_b": 26,
+      "expected_together": 5.9
+    },
+    {
+      "a": "wals_65A_aspect=None",
+      "b": "wals_98A_alignment=Nominative - accusative (standard)",
+      "count_a": 37,
+      "count_b": 11,
+      "expected_together": 5.7
+    },
+    {
+      "a": "wals_67A_future=None",
+      "b": "wals_98A_alignment=Nominative - accusative (standard)",
+      "count_a": 37,
+      "count_b": 11,
+      "expected_together": 5.7
+    },
+    {
+      "a": "wals_85A_adposition=Prepositions",
+      "b": "wals_87A_adjective=None",
+      "count_a": 40,
+      "count_b": 10,
+      "expected_together": 5.6
+    },
+    {
+      "a": "wals_81A_order=SOV",
+      "b": "wals_87A_adjective=Noun-Adjective",
+      "count_a": 15,
+      "count_b": 26,
+      "expected_together": 5.5
+    },
+    {
+      "a": "wals_26A_affixation=Strongly suffixing",
+      "b": "wals_87A_adjective=None",
+      "count_a": 38,
+      "count_b": 10,
+      "expected_together": 5.4
+    },
+    {
+      "a": "wals_49A_cases=None",
+      "b": "wals_98A_alignment=Nominative - accusative (standard)",
+      "count_a": 35,
+      "count_b": 11,
+      "expected_together": 5.4
+    },
+    {
+      "a": "wals_81A_order=None",
+      "b": "wals_85A_adposition=Prepositions",
+      "count_a": 9,
+      "count_b": 40,
+      "expected_together": 5.1
+    },
+    {
+      "a": "wals_13A_tone=None",
+      "b": "wals_1A_consonants=Moderately large",
+      "count_a": 35,
+      "count_b": 9,
+      "expected_together": 4.4
+    },
+    {
+      "a": "wals_1A_consonants=Moderately large",
+      "b": "wals_2A_vowels=None",
+      "count_a": 9,
+      "count_b": 35,
+      "expected_together": 4.4
+    },
+    {
+      "a": "wals_26A_affixation=None",
+      "b": "wals_37A_definite=Definite word distinct from demonstrative",
+      "count_a": 15,
+      "count_b": 21,
+      "expected_together": 4.4
+    },
+    {
+      "a": "wals_37A_definite=No definite or indefinite article",
+      "b": "wals_38A_indefinite=None",
+      "count_a": 12,
+      "count_b": 25,
+      "expected_together": 4.2
+    },
+    {
+      "a": "wals_37A_definite=None",
+      "b": "wals_38A_indefinite=No definite or indefinite article",
+      "count_a": 25,
+      "count_b": 12,
+      "expected_together": 4.2
+    },
+    {
+      "a": "wals_86A_genitive=Noun-Genitive",
+      "b": "wals_87A_adjective=None",
+      "count_a": 30,
+      "count_b": 10,
+      "expected_together": 4.2
+    },
+    {
+      "a": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "b": "wals_85A_adposition=Postpositions",
+      "count_a": 18,
+      "count_b": 16,
+      "expected_together": 4.1
+    },
+    {
+      "a": "diphthongs=False",
+      "b": "long_vowels=None",
+      "count_a": 57,
+      "count_b": 5,
+      "expected_together": 4.0
+    },
+    {
+      "a": "diphthongs=False",
+      "b": "n_consonants=None",
+      "count_a": 57,
+      "count_b": 5,
+      "expected_together": 4.0
+    },
+    {
+      "a": "diphthongs=False",
+      "b": "n_vowel_qualities=None",
+      "count_a": 57,
+      "count_b": 5,
+      "expected_together": 4.0
+    },
+    {
+      "a": "wals_49A_cases=None",
+      "b": "wals_98A_alignment=Neutral",
+      "count_a": 35,
+      "count_b": 8,
+      "expected_together": 3.9
+    },
+    {
+      "a": "wals_81A_order=VSO",
+      "b": "wals_87A_adjective=Adjective-Noun",
+      "count_a": 8,
+      "count_b": 35,
+      "expected_together": 3.9
+    },
+    {
+      "a": "long_vowels=False",
+      "b": "wals_81A_order=VSO",
+      "count_a": 34,
+      "count_b": 8,
+      "expected_together": 3.8
+    },
+    {
+      "a": "wals_26A_affixation=None",
+      "b": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "count_a": 15,
+      "count_b": 18,
+      "expected_together": 3.8
+    },
+    {
+      "a": "wals_37A_definite=Definite word distinct from demonstrative",
+      "b": "wals_51A_case_position=None",
+      "count_a": 21,
+      "count_b": 13,
+      "expected_together": 3.8
+    },
+    {
+      "a": "wals_37A_definite=Definite word distinct from demonstrative",
+      "b": "wals_86A_genitive=None",
+      "count_a": 21,
+      "count_b": 13,
+      "expected_together": 3.8
+    },
+    {
+      "a": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "b": "wals_81A_order=SOV",
+      "count_a": 18,
+      "count_b": 15,
+      "expected_together": 3.8
+    },
+    {
+      "a": "wals_81A_order=None",
+      "b": "wals_86A_genitive=Noun-Genitive",
+      "count_a": 9,
+      "count_b": 30,
+      "expected_together": 3.8
+    },
+    {
+      "a": "script=Latin",
+      "b": "wals_13A_tone=Complex tone system",
+      "count_a": 41,
+      "count_b": 6,
+      "expected_together": 3.5
+    },
+    {
+      "a": "vowel_harmony=None",
+      "b": "wals_49A_cases=10 or more cases",
+      "count_a": 62,
+      "count_b": 4,
+      "expected_together": 3.5
+    },
+    {
+      "a": "wals_37A_definite=Definite word distinct from demonstrative",
+      "b": "wals_38A_indefinite=No definite or indefinite article",
+      "count_a": 21,
+      "count_b": 12,
+      "expected_together": 3.5
+    },
+    {
+      "a": "wals_37A_definite=Definite word distinct from demonstrative",
+      "b": "wals_85A_adposition=None",
+      "count_a": 21,
+      "count_b": 12,
+      "expected_together": 3.5
+    },
+    {
+      "a": "script=Han",
+      "b": "wals_85A_adposition=Prepositions",
+      "count_a": 6,
+      "count_b": 40,
+      "expected_together": 3.4
+    },
+    {
+      "a": "vowel_harmony=True",
+      "b": "wals_85A_adposition=Prepositions",
+      "count_a": 6,
+      "count_b": 40,
+      "expected_together": 3.4
+    },
+    {
+      "a": "wals_13A_tone=Complex tone system",
+      "b": "wals_85A_adposition=Prepositions",
+      "count_a": 6,
+      "count_b": 40,
+      "expected_together": 3.4
+    },
+    {
+      "a": "wals_49A_cases=No morphological case-marking",
+      "b": "wals_85A_adposition=Postpositions",
+      "count_a": 15,
+      "count_b": 16,
+      "expected_together": 3.4
+    },
+    {
+      "a": "wals_51A_case_position=Case suffixes",
+      "b": "wals_98A_alignment=Neutral",
+      "count_a": 29,
+      "count_b": 8,
+      "expected_together": 3.3
+    },
+    {
+      "a": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "b": "wals_86A_genitive=None",
+      "count_a": 18,
+      "count_b": 13,
+      "expected_together": 3.3
+    },
+    {
+      "a": "wals_81A_order=None",
+      "b": "wals_87A_adjective=Noun-Adjective",
+      "count_a": 9,
+      "count_b": 26,
+      "expected_together": 3.3
+    },
+    {
+      "a": "wals_37A_definite=None",
+      "b": "wals_38A_indefinite=Indefinite word distinct from 'one'",
+      "count_a": 25,
+      "count_b": 9,
+      "expected_together": 3.2
+    },
+    {
+      "a": "wals_49A_cases=No morphological case-marking",
+      "b": "wals_81A_order=SOV",
+      "count_a": 15,
+      "count_b": 15,
+      "expected_together": 3.2
+    },
+    {
+      "a": "wals_1A_consonants=Average",
+      "b": "wals_37A_definite=No definite or indefinite article",
+      "count_a": 18,
+      "count_b": 12,
+      "expected_together": 3.0
+    },
+    {
+      "a": "wals_1A_consonants=Average",
+      "b": "wals_38A_indefinite=No definite or indefinite article",
+      "count_a": 18,
+      "count_b": 12,
+      "expected_together": 3.0
+    },
+    {
+      "a": "wals_37A_definite=No definite or indefinite article",
+      "b": "wals_38A_indefinite=Indefinite word same as 'one'",
+      "count_a": 12,
+      "count_b": 18,
+      "expected_together": 3.0
+    },
+    {
+      "a": "wals_37A_definite=No definite or indefinite article",
+      "b": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "count_a": 12,
+      "count_b": 18,
+      "expected_together": 3.0
+    },
+    {
+      "a": "wals_38A_indefinite=Indefinite word same as 'one'",
+      "b": "wals_85A_adposition=None",
+      "count_a": 18,
+      "count_b": 12,
+      "expected_together": 3.0
+    },
+    {
+      "a": "wals_38A_indefinite=No definite or indefinite article",
+      "b": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "count_a": 12,
+      "count_b": 18,
+      "expected_together": 3.0
+    },
+    {
+      "a": "wals_51A_case_position=No case affixes or adpositional clitics",
+      "b": "wals_85A_adposition=None",
+      "count_a": 18,
+      "count_b": 12,
+      "expected_together": 3.0
+    }
+  ]
+}

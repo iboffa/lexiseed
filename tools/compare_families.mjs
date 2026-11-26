@@ -1,0 +1,42 @@
+// Compare sourced data (references/presence.json, references/examples.json) with src/data/families.js.
+import { readFileSync, writeFileSync } from 'node:fs';
+import { FAMILIES, FAMILY_ORDER } from '../src/data/families.js';
+const pres = JSON.parse(readFileSync(new URL('../references/presence.json', import.meta.url)));
+const ex = JSON.parse(readFileSync(new URL('../references/examples.json', import.meta.url)));
+const tally = (rows, f) => { const t = {}; for (const r of rows) if (r[f] != null) t[r[f]] = (t[r[f]] || 0) + 1; return Object.entries(t).map(([k, v]) => `${k} ${v}`).join(', ') || '(no data)'; };
+const strip = (s) => s.normalize('NFC');
+let md = '';
+for (const fam of FAMILY_ORDER.filter(f => f !== 'original')) {
+  const F = FAMILIES[fam], P = pres[fam], rows = ex.filter(r => r.style === fam);
+  const poolC = Object.keys(F.consonants), poolV = Object.keys(F.vowels);
+  const srcC = P ? Object.entries(P.consonants).map(([k, v]) => [strip(k), v]) : [];
+  const srcCset = new Set(srcC.map(x => x[0]));
+  const common = srcC.filter(([, v]) => v >= 0.5).map(x => x[0]);
+  const missing = common.filter(c => !poolC.includes(c));
+  const unattested = poolC.filter(c => !srcCset.has(c));
+  const srcV = P ? Object.entries(P.vowels).map(([k, v]) => [strip(k), v]) : [];
+  const vMissing = srcV.filter(([k, v]) => v >= 0.5 && !poolV.includes(k)).map(x => x[0]);
+  const vUnatt = poolV.filter(v => !srcV.some(([k]) => k === v));
+  md += `\n### ${F.name} (${rows.length} languages: ${rows.map(r => r.id).join(', ')})\n\n`;
+  md += `| Item | Current guess | Sourced |\n|---|---|---|\n`;
+  md += `| Consonant count | ${F.cCount.join('–')} | ${P ? P.n_consonants.join(', ') : '–'} (PHOIBLE, n=${P?.n ?? 0}) |\n`;
+  md += `| Vowel qualities | ${F.vCount.join('–')} | ${P ? P.n_vowel_qualities.join(', ') : '–'} |\n`;
+  md += `| Consonants in ≥50% of languages but missing from pool | | ${missing.join(' ') || 'none'} |\n`;
+  md += `| Pool consonants in no example language | ${unattested.join(' ') || 'none'} | |\n`;
+  md += `| Vowels in ≥50% missing from pool | | ${vMissing.join(' ') || 'none'} |\n`;
+  md += `| Pool vowels in no example language | ${vUnatt.join(' ') || 'none'} | |\n`;
+  const g = F.grammar;
+  md += `| Word order (81A) | ${Object.entries(g.order).map(([k, v]) => `${k} ${v}`).join(', ')} | ${tally(rows, 'wals_81A_order')} |\n`;
+  md += `| Cases on (weight ${g.caseOn}), count ${g.caseCount.join('–')} | | ${tally(rows, 'wals_49A_cases')} |\n`;
+  md += `| Morphology | ${Object.entries(g.morph).map(([k, v]) => `${k} ${v}`).join(', ')} | 20A: ${tally(rows, 'wals_20A_fusion')}; 26A: ${tally(rows, 'wals_26A_affixation')} |\n`;
+  md += `| Gender | ${Object.entries(g.gender).map(([k, v]) => `${k} ${v}`).join(', ')} | ${tally(rows, 'wals_30A_genders')} |\n`;
+  md += `| Articles | ${Object.entries(g.articles).map(([k, v]) => `${k} ${v}`).join(', ')} | 37A: ${tally(rows, 'wals_37A_definite')}; 38A: ${tally(rows, 'wals_38A_indefinite')} |\n`;
+  md += `| Tone | ${Object.entries(g.tone).map(([k, v]) => `${k} ${v}`).join(', ')} | ${tally(rows, 'wals_13A_tone')} |\n`;
+  md += `| Syllables (12A) | onset ≤${F.onsetMax}, coda ≤${F.codaMax} | ${tally(rows, 'wals_12A_syllables')} |\n`;
+  md += `| Alignment | ${Object.entries(g.alignment).map(([k, v]) => `${k} ${v}`).join(', ')} | ${tally(rows, 'wals_98A_alignment')} |\n`;
+  md += `| Harmony (p=${g.harmony}) | | ${tally(rows, 'vowel_harmony')} |\n`;
+  md += `| Aspect / future | ${Object.keys(g.tam).join(', ')} | 65A: ${tally(rows, 'wals_65A_aspect')}; 67A: ${tally(rows, 'wals_67A_future')} |\n`;
+  md += `| Script | ${F.script} | ${tally(rows, 'script')} |\n`;
+}
+writeFileSync(new URL('../references/comparison.md', import.meta.url), md);
+console.log(md);
